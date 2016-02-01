@@ -3,6 +3,8 @@
         "disqus"
     ],
     "pluginsConfig": {
-        "shortName": "<00fabnotes>"
+    	"disqus":{
+        	"shortName": "00fabnotes"
+    	}
     }
 }
