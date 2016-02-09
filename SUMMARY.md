@@ -3,9 +3,10 @@
 
 * Week1
 	* [Introduction & Project Management](Week1/1_Introduction.md)
-	* [Assignment Note](Week1/1_Assigment.md)
+	* [Assignment: Git & building a website](Week1/1_Assigment.md)
 * Week2
-	* [Computer-aided Design](Week2/2.md)
+	* [Computer-aided Design](Week2/2_CAD.md)
+	* [Assignment: project modeling](Week2/2_Assigment.md)
 * Week3
 	* [Computer-controlled cutting](Week3/3.md)
 * Week4
