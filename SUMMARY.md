@@ -8,7 +8,8 @@
 	* [Computer-aided Design](Week2/2_CAD.md)
 	* [Assignment: project modeling](Week2/2_Assigment.md)
 * Week3
-	* [Computer-controlled cutting](Week3/3.md)
+	* [Computer-controlled cutting](Week3/3_computer-controlled cutting.md)
+	* [Assignment: A press-fit construction kit](Week3/3_Assigment.md)
 * Week4
 	* [Electronics Production](Week4/4.md)
 * Week5
