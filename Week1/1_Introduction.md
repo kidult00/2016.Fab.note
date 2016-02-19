@@ -11,7 +11,7 @@
 
 ![](http://ng.cba.mit.edu/show/13.07.Hull.png)
 
-Computers controlling mechine dates back to the 50s
+Computers controlling machine dates back to the 50s
 
 ![](http://ng.cba.mit.edu/show/13.08.PopSci.png)
 
