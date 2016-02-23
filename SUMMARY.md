@@ -11,7 +11,8 @@
 	* [Computer-controlled cutting](Week3/3_computer-controlled cutting.md)
 	* [Assignment: A press-fit construction kit](Week3/3_Assigment.md)
 * Week4
-	* [Electronics Production](Week4/4.md)
+	* [Electronics Production](Week4/4_electronics-production.md)
+	* [Assignment: PCB & FabISP](Week4/4_Assigment.md)
 * Week5
 	* [3D Scanning and Printing](Week5/5.md)
 

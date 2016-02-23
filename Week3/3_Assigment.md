@@ -49,6 +49,55 @@ You can [download my antimony file here](https://app.box.com/s/qfndi1fv6vhbyu6gr
 
 ### Make
 
-can't make it to the lab this week....
+First I tried using laser cutter to draw "群主雕":
 
-I'll update the cutting processing in the lab once I've done the job.
+![](http://7xjpra.com1.z0.glb.clouddn.com/FullSizeRender%203_shrink.jpg)
+
+Fabmodules is quite handy. Just select input format and the machine type, then select output material. Several parameters should be tested before hand.
+
+When cutting thick and hard materials, power should be around 100% and speed 2%.
+
+I tried speed 4% and power 90%, but still failed to cut though  cardboards we use in the lab.
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/IMG_9517_shrink.JPG)
+
+
+In addition, the x,y positions are tricky, cos it is related to the dpi (if file format is png). Always do some tests before cutting.
+
+Here's my tangram cardboard after cutting.
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/IMG_9524_shrink.JPG)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/IMG_9525_shrink.JPG)
+
+Tangram press-fit kit
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/IMG_9526_shrink.JPG)
+
+Then I tried using acrylic to make a "3d minion".
+
+1. upload svg file to fabmodules
+
+	![](http://7xjpra.com1.z0.glb.clouddn.com/IMG_9535_shrink.JPG)
+
+2. choose "cut acrylic", set units/in 50 ,power 90, speed 0.8, then do the position test
+
+3. calculate cutting path
+
+
+4. put acrylic board in the right place, the send path to the machine
+
+5. press start button on the machine
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/IMG_9536_shrink.JPG)
+
+Done after 18 mins!
+
+Problem: machine can't cutting through some small parts, and some thin edges are burned out...
+
+Now we got all parts for minion:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/IMG_9537_shrink.JPG)
+
+The last step is to glue all parts into a multi-lever minion:
+![](http://7xjpra.com1.z0.glb.clouddn.com/FullSizeRender_shrink.jpg)
