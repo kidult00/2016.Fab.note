@@ -84,7 +84,6 @@ Then I tried using acrylic to make a "3d minion".
 
 3. calculate cutting path
 
-
 4. put acrylic board in the right place, the send path to the machine
 
 5. press start button on the machine
@@ -99,5 +98,5 @@ Now we got all parts for minion:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/IMG_9537_shrink.JPG)
 
-The last step is to glue all parts into a multi-lever minion:
+The last step is to glue all parts into a multi-layer minion:
 ![](http://7xjpra.com1.z0.glb.clouddn.com/FullSizeRender_shrink.jpg)

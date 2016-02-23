@@ -15,8 +15,8 @@
 - [Assignment: A press-fit construction kit](https://kidult00.gitbooks.io/00fabnotes/content/Week3/3_Assigment.html)
 
 ## Week4
-- [Electronics-production]()
-- [Assignment: PCB & FabISP]()
+- [Electronics-production](https://kidult00.gitbooks.io/00fabnotes/content/Week4/4_electronics-production.html)
+- [Assignment: PCB & FabISP](https://kidult00.gitbooks.io/00fabnotes/content/Week4/4_Assigment.html)
 
 ## Week5
 
