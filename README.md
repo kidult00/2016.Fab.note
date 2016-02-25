@@ -1,5 +1,6 @@
 # 00's Fab Academy Notes
 
+[Gitbook](https://www.gitbook.com/book/kidult00/00fabnotes)
 
 ## Week1
 
@@ -19,6 +20,9 @@
 - [Assignment: PCB & FabISP](https://kidult00.gitbooks.io/00fabnotes/content/Week4/4_Assigment.html)
 
 ## Week5
+
+- [3D scanning and printing](https://kidult00.gitbooks.io/00fabnotes/content/Week5/5_3D scanning-and-printin.html)
+- [Assignment: 3D scanning and printing](https://kidult00.gitbooks.io/00fabnotes/content/Week5/5_Assigment.html)
 
 ## Week6
 

@@ -14,7 +14,8 @@
 	* [Electronics Production](Week4/4_electronics-production.md)
 	* [Assignment: PCB & FabISP](Week4/4_Assigment.md)
 * Week5
-	* [3D Scanning and Printing](Week5/5.md)
+	* [3D Scanning and Printing](Week5/5_3D scanning and printing.md)
+	* [Assignment: 3D Scanning and Printing](Week5/5_Assigment.md)
 
 	
 	
