@@ -21,7 +21,7 @@
 
 ## Week5
 
-- [3D scanning and printing](https://kidult00.gitbooks.io/00fabnotes/content/Week5/5_3D scanning-and-printin.html)
+- [3D scanning and printing](https://kidult00.gitbooks.io/00fabnotes/content/Week5/5_3D%20scanning%20and%20printing.html)
 - [Assignment: 3D scanning and printing](https://kidult00.gitbooks.io/00fabnotes/content/Week5/5_Assigment.html)
 
 ## Week6
