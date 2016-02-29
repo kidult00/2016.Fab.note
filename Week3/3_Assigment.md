@@ -1,6 +1,6 @@
 
 
-## Assignment
+## Week3 Assignment
 
 > Design, make, and document a parametric press-fit construction kit.
 
