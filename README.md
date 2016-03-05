@@ -26,8 +26,7 @@
 
 ## Week6
 
-- [Electronics Design](https://kidult00.gitbooks.io/00fabnotes/content/Week6/6_ElectronicsDesign
-.html)
+- [Electronics Design](https://kidult00.gitbooks.io/00fabnotes/content/Week6/6_ElectronicsDesign.html)
 - [Assignment: Design and make a board](https://kidult00.gitbooks.io/00fabnotes/content/Week5/6_Assigment.html)
 
 ## Week7
