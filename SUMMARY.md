@@ -16,6 +16,9 @@
 * Week5
 	* [3D Scanning and Printing](Week5/5_3D scanning and printing.md)
 	* [Assignment: 3D Scanning and Printing](Week5/5_Assigment.md)
+* Week6
+	* [Electronics Design](Week6/6_ElectronicsDesign.md)
+	* [Assignment: Design and make a board](Week6/6_Assigment.md)
 
 	
 	
