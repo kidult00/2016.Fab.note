@@ -45,4 +45,22 @@ It took one hour to finish:
 ![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1456713620.jpeg)
 
 ### 3D scan an object
-Machine was not ready ... I'll update the details next week.
+In our lab we use this 3D scan machine:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/3dscan1.jpeg)
+
+First, you should [download and install the software](http://www.3dsystems.com/shop/sense/downloads).
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/3dscan2.jpeg)
+
+Tips for scanning:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/3dscan3.jpeg)
+
+It's easy to lost tracking:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/3dscan4.jpeg)
+
+Finally, I got my body scan through my classmate's help:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/3dscan5.jpeg)
