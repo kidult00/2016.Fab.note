@@ -30,7 +30,7 @@ After adding all the components, it's time for some wiring, naming and labeling.
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/03eageltool.png)
 
-Here is my schematic:
+You should label all the pins right. And the net should not overlap the pin. It's easy to mess up. So doblecheck everything. Here is my schematic:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/003eagleScheme.png)
 
@@ -61,9 +61,11 @@ Then I tried Autorouter, but the result was not desirable。
 
 ### 5. Route manually
 
-Follow the yellow traces, I route the board manually. You can hide layers except "top", then you can see the nice traces of your board:
+Follow the yellow traces, I route the board manually. These's a tip: you can right click to change line modes when you come to a 90 degree turning point.
 
-![](http://7xjpra.com1.z0.glb.clouddn.com/010eageldone.png)
+After finishing routing, you can hide layers except "top" , then you can see the nice traces of your board:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/010eageldone-1.png)
 
 [Downlong my eagle files](https://app.box.com/s/aaymx4rv9zuroshc6rktvhyweq8mw65i)
 
@@ -73,15 +75,37 @@ Export your image as a PNG selecting only the top layer of your board. You'll on
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/011eagelexport.png)
 
-Then I draw a frame in Sketch
+Next, export "Dimension" layer for the board.
 
-![](http://7xjpra.com1.z0.glb.clouddn.com/eagelallprint.png)
+![](http://7xjpra.com1.z0.glb.clouddn.com/012eagelallprint-1.png)
 
 
 ### 7. Milling
 
-### 8. Assembly
+It's time for milling. Upload eagle export to fab modules. I set the dpi to 1500 px and the route result seems ok.
 
+![](http://7xjpra.com1.z0.glb.clouddn.com/013fabmodels.png)
+
+The traces, not bad.
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/014echomilling.jpeg)
+
+And the finish board:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/015echoboarddone.jpeg)
+
+### 8. Assembly
+Now, the finally step, assembling.
+
+Picking out all the components can be quite a painstaking job. I draw a sketch to assure everything is ready.
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/016echocomponents.jpeg)
+
+I like doing soldering, although I still have some trouble with those tiny components :)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/017echosolderingdone.jpeg)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/018myechoboard.jpeg)
 
 ## More materials
 - [JeremyBlum's eagle tutorials](http://www.jeremyblum.com/category/eagle-tutorials/)
