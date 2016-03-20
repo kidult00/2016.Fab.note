@@ -37,6 +37,9 @@
 
 ## Week8
 
+- [Embedded Programming](https://kidult00.gitbooks.io/00fabnotes/content/Week8/8_EmbeddedProgramming.html)
+- [Assignment: Program the board](https://kidult00.gitbooks.io/00fabnotes/content/Week8/8_Assignment.html)
+
 ## Week9
 
 ## Week10
