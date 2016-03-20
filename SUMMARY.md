@@ -20,8 +20,12 @@
 	* [Electronics Design](Week6/6_ElectronicsDesign.md)
 	* [Assignment: Design and make a board](Week6/6_Assignment.md)
 * Week7
-	* [Electronics Design](Week7/7_Computer-ControlledMachining.md)
+	* [Comouter-Controlled Machining](Week7/7_Computer-ControlledMachining.md)
 	* [Assignment: Design and make a board](Week7/7_Assignment.md)
+* Week8
+	* [Embedded Programming](Week8/8_EmbeddedProgramming.md)
+	* [Assignment: Program the board](Week8/8_Assignment.md)
+
 	
 
 
