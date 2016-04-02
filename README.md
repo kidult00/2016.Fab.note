@@ -42,6 +42,9 @@
 
 ## Week9
 
+- [Mechanical Design](https://kidult00.gitbooks.io/00fabnotes/content/Week9/9_MechanicalDesign.html)
+- [Assignment: Make a machine](https://kidult00.gitbooks.io/00fabnotes/content/Week9/9_Assignment.html)
+
 ## Week10
 
 

@@ -25,6 +25,9 @@
 * Week8
 	* [Embedded Programming](Week8/8_EmbeddedProgramming.md)
 	* [Assignment: Program the board](Week8/8_Assignment.md)
+* Week9
+	* [MechanicalDesign](Week9/9_MechanicalDesign.md)
+	* [Assignment: Make a machine](Week9/9_Assignment.md)
 
 	
 
