@@ -19,6 +19,12 @@ Close loop is much cheaper and easier to manipulated.
 
 ![](http://ecx.images-amazon.com/images/I/41RFHBj6-CL._AC_UL115_.jpg)
 
-## More materials
-[Applied Mechanics of Solids](http://solidmechanics.org/)
+proportional control
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/proportional%20control.png)
+
+PID(比例积分微分控制) - Proportional, Integral, Derivative
+
+[dataflow](http://mods.cba.mit.edu/) machine controls
+
 
