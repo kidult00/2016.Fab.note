@@ -47,7 +47,8 @@
 
 ## Week10
 
-
+- [Machine Design](https://kidult00.gitbooks.io/00fabnotes/content/Week10/10_MachineDesign.html)
+- [Assignment: Make a machine](https://kidult00.gitbooks.io/00fabnotes/content/Week10/10_Assignment.html)
 
 
 
