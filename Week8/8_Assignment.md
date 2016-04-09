@@ -60,6 +60,10 @@ Then I tried to use a USBtinyISP.
 
 First, download [hello.ftdi.44.echo.c](http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.echo.c), [hello.ftdi.44.echo.c.make](http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.echo.c.make)
 
+Then connect my board with USBtinyISP:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/usbtinyisp.jpeg)
+
 Enter into the download folder, use command: ``make -f hello.ftdi.44.echo.c.make``
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/ISPmakefile.png)
