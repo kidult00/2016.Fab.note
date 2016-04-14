@@ -50,6 +50,12 @@
 - [Machine Design](https://kidult00.gitbooks.io/00fabnotes/content/Week10/10_MachineDesign.html)
 - [Assignment: Make a machine](https://kidult00.gitbooks.io/00fabnotes/content/Week10/10_Assignment.html)
 
+## Week11
+
+- [Input Devices](https://kidult00.gitbooks.io/00fabnotes/content/Week11/11_InputDevices.html)
+- [Assignment: Read a sensor](https://kidult00.gitbooks.io/00fabnotes/content/Week11/11_Assignment.html)
+
+
 
 
 

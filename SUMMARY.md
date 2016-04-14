@@ -31,6 +31,9 @@
 * Week10
 	* [Machine Design](Week10/10_MachineDesign.md)
 	* [Assignment: Automate your machine](Week10/10_Assignment.md)
+* Week11
+	* [Input Devices](Week11/11_InputDevices.md)
+	* [Assignment: Read a Sensor](Week11/11_Assignment.md)
 
 	
 
