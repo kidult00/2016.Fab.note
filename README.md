@@ -55,7 +55,10 @@
 - [Input Devices](https://kidult00.gitbooks.io/00fabnotes/content/Week11/11_InputDevices.html)
 - [Assignment: Read a sensor](https://kidult00.gitbooks.io/00fabnotes/content/Week11/11_Assignment.html)
 
+## Week12
 
+- [Molding & Casting](https://kidult00.gitbooks.io/00fabnotes/content/Week12/12_MoldingandCasting.html)
+- [Assignment: 3D Molding](https://kidult00.gitbooks.io/00fabnotes/content/Week12/12_Assignment.html)
 
 
 

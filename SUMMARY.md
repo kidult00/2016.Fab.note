@@ -34,8 +34,10 @@
 * Week11
 	* [Input Devices](Week11/11_InputDevices.md)
 	* [Assignment: Read a Sensor](Week11/11_Assignment.md)
+* Week12
+	* [Molding and Casting](Week12/12_MoldingandCasting.md)
+	* [Assignment: Read a Sensor](Week12/12_Assignment.md)
 
-	
 
 
 	
