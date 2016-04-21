@@ -121,8 +121,6 @@ This week is about [Molding and Casting](http://academy.cba.mit.edu/classes/mold
 	+ stl, toolpath, mold
 
 		[calculating path in fabmodules](http://academy.cba.mit.edu/classes/molding_casting/sample.mp4)
-	
-	+ tippy.cad, bottom, top, mold, video
 
 
 ## more material
