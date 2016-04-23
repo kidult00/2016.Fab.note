@@ -36,6 +36,48 @@ The neck:
 
 I'll do these two main parts first.
 
+Then we should make some setup for CAM.
+
+Go to the CAM workspace in Fusion360. Select the component, click 「SETUP」 tool, and change the 「Model orientation」 to Z & X:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/cam-selectz.png)
+
+Then select the body face to set Z axis:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/cam-selectzface.png)
+
+Then choose the stock starting point by clicking the 「Stock box point」 and choose the up corner point:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/cam-selectstartpoint.png)
+
+Next, change the size of the stock.
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/cam-stocksetup.png)
+
+Now we can generate the path for cam. Select 2D-Face
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/cam-2dface.png)
+
+Select 50mm face mill
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/cam-2dAdaptive.png)
+
+Then select 2D-Adaptive Clearing, select 80mm flat endmill and select the edge of extrusion
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/cam-2dAdaptiveSelect.png)
+
+Now we get the adaptive clearing path:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/cam-2dAdaptiveCalc.png)
+
+Then select 2D-Countour and choose 60mm flat endmill, and the same edge as we do in 2D-Adaptive Clearing
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/cam-contour_shrink.png)
+
+It seemed a little complex, so I tried 3D Adaptive. But still many collisions.
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/cam-3dAdaptive_shrink.png)
+
 ### Make
 The Shopbot isn't ready in our lab. So I'll update making notes later.
 
@@ -45,3 +87,4 @@ The Shopbot isn't ready in our lab. So I'll update making notes later.
 - [Beginner question, arch top guitar model](https://forums.autodesk.com/t5/design-validate-document/beginner-question-arch-top-guitar-model/td-p/5564290/highlight/true)
 - [Highline Guitars](https://www.youtube.com/user/trideciple)
 - [STEM-Guitar-Guitarbuilding](http://www.guitarbuilding.org/)
+- [Fusion 360 CAM tutorial](http://www.autodesk.com/products/fusion-360/learn-training-tutorials?mktvar002=662996&utm_id=662996)
