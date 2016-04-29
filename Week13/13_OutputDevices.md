@@ -41,6 +41,17 @@ MOSFET- The metal–oxide–semiconductor field-effect transistor
    - low-pass filters
    - class D amplifiers
 
+### Motor
+
+[brush DC motor](https://www.jameco.com/webapp/wcs/stores/servlet/StoreCatalogDrillDownView?langId=-1&storeId=10001&catalogId=10001&categoryName=cat_3515&subCategoryName=Electromechanical%20%2F%20Motors%20%2F%20DC%20Direct%20Drive&category=351530)
+
+![](http://media.digikey.com/Renders/Allegro%20Microsystems%20Renders/8-SOIC%20EXP%20PAD_sml.jpg)
+
+brushless DC motor (BLDC)
+
+[servo motor](http://www.hobbyking.com/hobbyking/store/__84__189__Servos_and_parts-All_Servos.html)
+
+[stepper motor](http://www.jameco.com/webapp/wcs/stores/servlet/StoreCatalogDrillDownView?langId=-1&storeId=10001&catalogId=10001&categoryName=cat_3515&subCategoryName=Electromechanical%20%2F%20Motors%20%2F%20Stepper&category=351580): unipolar, bipolar
 
 ## more material
 
