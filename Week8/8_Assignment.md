@@ -157,8 +157,6 @@ then check [Arduino board as ATtiny programmer](http://highlowtech.org/?p=1706)
 
 连接到 MacBook pro，指示灯亮，但是上传不了程序
 
-查到一个[说明文档](https://learn.adafruit.com/downloads/pdf/usbtinyisp.pdf) 
-
-发现电脑上没有安装 [avrdude](http://savannah.nongnu.org/projects/avrdude/), 但还是不知道该怎么装。
+查到一个[说明文档](https://learn.adafruit.com/downloads/pdf/usbtinyisp.pdf) ，发现电脑上没有安装 [avrdude](http://savannah.nongnu.org/projects/avrdude/), 但还是不知道该怎么装。
 
 突然间看到 new MacBook 电量低，想起会不会是因为电量不足所以识别不了 USBtinyISP？ 插上插头。。。果然
