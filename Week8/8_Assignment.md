@@ -110,6 +110,16 @@ I googled the error message and find [this fab note](http://fab.cba.mit.edu/clas
 
 Something went wrong with my board. I should make a new board after our lab reopen next week...
 
+update:
+
+I make a new board and fuse again:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/boardfuseok.png)
+
+Next step
+
+``make -f hello.ftdi.44.echo.c.make program-usbtiny``
+
 
 Ref
 
