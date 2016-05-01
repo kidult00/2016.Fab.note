@@ -68,6 +68,15 @@ Enter into the download folder, use command: ``make -f hello.ftdi.44.echo.c.make
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/ISPmakefile.png)
 
+```
+steps:
+make clean
+make hex
+(sudo) make fuse (check programmer in Makefile, may need to repeat)
+(sudo) make program
+```
+
+
 Then ``sudo make -f hello.ftdi.44.echo.c.make program-usbtiny-fuses``
 
 It didn't work:
