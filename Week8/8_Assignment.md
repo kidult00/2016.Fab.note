@@ -68,13 +68,6 @@ Enter into the download folder, use command: ``make -f hello.ftdi.44.echo.c.make
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/ISPmakefile.png)
 
-```
-steps:
-make clean
-make hex
-(sudo) make fuse (check programmer in Makefile, may need to repeat)
-(sudo) make program
-```
 
 
 Then ``sudo make -f hello.ftdi.44.echo.c.make program-usbtiny-fuses``
@@ -128,6 +121,41 @@ I make a new board and fuse again:
 Next step
 
 ``make -f hello.ftdi.44.echo.c.make program-usbtiny``
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/boardfusemake.png)
+
+Download [term.py](http://academy.cba.mit.edu/classes/input_devices/python/term.py)
+
+``python term.py /dev/ttyUSB0 115200``, didn't work:
+
+```
+Traceback (most recent call last):
+  File "term.py", line 89, in <module>
+    ser = serial.Serial(port,speed)
+  File "/Library/Python/2.7/site-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/Library/Python/2.7/site-packages/serial/serialposix.py", line 294, in open
+    raise SerialException(msg.errno, "could not open port %s: %s" % (self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+```
+
+Then my classmate told me to try arduino.
+
+Add board
+
+open arduino preference, Additional Boards Manager URLs:
+
+> https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/arduinoAddBoard.png)
+
+then set board:"ATtiny", Processor:"ATtiny44", Clock:"20 MHz", Port:"USB"
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/arduinosetting.png)
+
+And load the Blink example, change pin no. from 13 to 7
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/arduinochangepin.png)
 
 
 Ref
