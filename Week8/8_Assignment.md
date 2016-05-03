@@ -112,7 +112,7 @@ I googled the error message and find [this fab note](http://fab.cba.mit.edu/clas
 
 Something went wrong with my board. I should make a new board after our lab reopen next week...
 
-update:
+### update 
 
 I make a new board and fuse again:
 
@@ -124,7 +124,7 @@ Next step
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/boardfusemake.png)
 
-Download [term.py](http://academy.cba.mit.edu/classes/input_devices/python/term.py)
+Now I can burn program into the board. Download [term.py](http://academy.cba.mit.edu/classes/input_devices/python/term.py)
 
 ``python term.py /dev/ttyUSB0 115200``, didn't work:
 
@@ -139,26 +139,35 @@ Traceback (most recent call last):
 serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
 ```
 
-Then my classmate told me to try arduino.
+Then my classmate told me to try Arduino.
 
-Add board
+1. Add board
 
-open arduino preference, Additional Boards Manager URLs:
+	open Arduino preference, Additional Boards Manager URLs:
 
-> https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
+	> https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json
 
-![](http://7xjpra.com1.z0.glb.clouddn.com/arduinoAddBoard.png)
+	![](http://7xjpra.com1.z0.glb.clouddn.com/arduinoAddBoard.png)
 
-then set board:"ATtiny", Processor:"ATtiny44", Clock:"20 MHz", Port:"USB"
+2. Settings
 
-![](http://7xjpra.com1.z0.glb.clouddn.com/arduinosetting.png)
+	Set board:"ATtiny", Processor:"ATtiny44", Clock:"20 MHz", Port:"USB"
 
-And load the Blink example, change pin no. from 13 to 7
+	![](http://7xjpra.com1.z0.glb.clouddn.com/arduinosetting.png)
 
-![](http://7xjpra.com1.z0.glb.clouddn.com/arduinochangepin.png)
+3. Program
+
+	Load the Blink example, change pin No. from 13 to 7:
+
+	![](http://7xjpra.com1.z0.glb.clouddn.com/arduinochangepin.png)
+
+4. Burn Bootloader
+5. It worked!
+
+	![](http://7xjpra.com1.z0.glb.clouddn.com/boardsucceed.jpeg)
 
 
-Ref
+Ref:
 
 - [Programming an ATtiny w/ Arduino 1.6 (or 1.0)](http://highlowtech.org/?p=1695)
 - [Use an Arduino as a FTDI Programmer](http://www.instructables.com/id/Arduino-Examples-2-Use-an-Arduino-as-a-FTDI-Progr/)
@@ -171,31 +180,32 @@ Ref
 
 ---
 
-### 尝试用 arduino 当做 ISP
-then check [Arduino board as ATtiny programmer](http://highlowtech.org/?p=1706)
-
-1. Installing ATtiny support in Arduino
-
-	- Open the preferences dialog in the Arduino software.
-	- Find the “Additional Boards Manager URLs” field near the bottom of the dialog.
-	![](http://highlowtech.org/wp-content/uploads/2011/10/additional-boards-manager-urls-blank.png)
-	- Paste the following URL into the field (use a comma to separate it from any URLs you’ve already added):
-	''https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json''
-	- Click the OK button to save your updated preferences.
-	- Open the boards manager in the “Tools > Board” menu.
-	- Scroll to the bottom of the list; you should see an entry for “ATtiny”.
-	![](http://highlowtech.org/wp-content/uploads/2011/10/boards-manager.png)
-	- Install
-	- Close the boards manager. You should now see an entry for ATtiny in the “Tools > Board” menu.
 	
-### 其他
+### Other attempts
+
+#### Try to use Arduino as ISP
+
+Tutorial: [Arduino board as ATtiny programmer](http://highlowtech.org/?p=1706)
+
+Installing ATtiny support in Arduino
+
+- Open the preferences dialog in the Arduino software.
+- Find the “Additional Boards Manager URLs” field near the bottom of the dialog.
+	![](http://highlowtech.org/wp-content/uploads/2011/10/additional-boards-manager-urls-blank.png)
+- Paste the following URL into the field (use a comma to separate it from any URLs you’ve already added):
+	''https://raw.githubusercontent.com/damellis/attiny/ide-1.6.x-boards-manager/package_damellis_attiny_index.json''
+- Click the OK button to save your updated preferences.
+- Open the boards manager in the “Tools > Board” menu.
+- Scroll to the bottom of the list; you should see an entry for “ATtiny”.
+	![](http://highlowtech.org/wp-content/uploads/2011/10/boards-manager.png)
+- Install
+- Close the boards manager. You should now see an entry for ATtiny in the “Tools > Board” menu.
+
 
 把 USBtinyISP 通过 usb 连接到 new MacBook，指示灯不亮。开始了折腾之旅。。。
 
 连接到 MacBook pro，指示灯亮，但是上传不了程序
 
-查到一个[说明文档](https://learn.adafruit.com/downloads/pdf/usbtinyisp.pdf) 
-
-发现电脑上没有安装 [avrdude](http://savannah.nongnu.org/projects/avrdude/), 但还是不知道该怎么装。
+查到一个[说明文档](https://learn.adafruit.com/downloads/pdf/usbtinyisp.pdf) ，发现电脑上没有安装 [avrdude](http://savannah.nongnu.org/projects/avrdude/), 但还是不知道该怎么装。
 
 突然间看到 new MacBook 电量低，想起会不会是因为电量不足所以识别不了 USBtinyISP？ 插上插头。。。果然
