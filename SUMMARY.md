@@ -37,6 +37,15 @@
 * Week12
 	* [Molding and Casting](Week12/12_MoldingandCasting.md)
 	* [Assignment: Read a Sensor](Week12/12_Assignment.md)
+* Week13
+	* [Output Devices](Week13/13_OutputDevices.md)
+	* [Assignment: Output Devices](Week13/13_Assignment.md)
+* Week14
+	* [Composites](Week14/14_Composites.md)
+	* [Assignment: Composites](Week14/14_Assignment.md)
+* Week15
+	* [Networking & Communicationss](Week15/15_Networking&Communicationss.md)
+	* [Assignment: Read a Sensor](Week15/15_Assignment.md)
 
 
 

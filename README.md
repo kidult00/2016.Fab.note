@@ -60,5 +60,23 @@
 - [Molding & Casting](https://kidult00.gitbooks.io/00fabnotes/content/Week12/12_MoldingandCasting.html)
 - [Assignment: 3D Molding](https://kidult00.gitbooks.io/00fabnotes/content/Week12/12_Assignment.html)
 
+## Week13
+
+- [Output Devices](https://kidult00.gitbooks.io/00fabnotes/content/Week13/13_OutputDevices.html)
+- [Assignment: Output Devices](https://kidult00.gitbooks.io/00fabnotes/content/Week13/13_Assignment.html)
+
+## Week14
+
+- [Composites](https://kidult00.gitbooks.io/00fabnotes/content/Week14/14_Composites.html)
+- [Assignment: Composites](https://kidult00.gitbooks.io/00fabnotes/content/Week14/14_Assignment.html)
+
+## Week15
+
+- [Networking & Communicationss](https://kidult00.gitbooks.io/00fabnotes/content/Week15/15_Networking&Communicationss.html)
+- [Assignment: Networking & Communicationss](https://kidult00.gitbooks.io/00fabnotes/content/Week15/15_Assignment.html)
+
+
+
+
 
 
