@@ -80,9 +80,9 @@ SPI [library](http://arduino.cc/en/Reference/SPI)
 * ALOHA
 * Master-Slave
 * Token Ring
-* TDMA: Time-Division Multiple Access
-* FDMA: Frequency-Divsion Multiple Access
-* CSMA: Carrier-Sense Multiple Access
+* TDMA: Time-Division Multiple Access 时分多址
+* FDMA: Frequency-Divsion Multiple Access 频分多址
+* CSMA: Carrier-Sense Multiple Access 载波监听
       
   - CD: Collision Detection
   - CA: Collision Avoidance
@@ -90,6 +90,39 @@ SPI [library](http://arduino.cc/en/Reference/SPI)
   - nonpersistent: random backoff
   - p-persistent: probability to transmit
   
-* CDMA: Code-Division Multiple Access
-* MIMO: Multiple-Input Multiple-Output
+* CDMA: Code-Division Multiple Access 码分多址
+* MIMO: Multiple-Input Multiple-Output 多输入多输出
 * PDMA": Physical-Division Multiple Access
+
+## [errors](http://www.cambridge.org/us/academic/subjects/physics/general-and-classical-physics/physics-information-technology)
+
+- detection, correction
+- block, convolution codes
+- parity, checksum, Hamming, Reed-Solomon, Turbo
+
+## [networking](http://authors.phptr.com/tanenbaumcn4/)
+
+- [Internet protocols](http://www.ietf.org/)
+	+ [IPv4](http://www.ietf.org/rfc/rfc0791.txt), [IPv6](http://www.ietf.org/rfc/rfc2460.txt)
+	+ [DNS](http://www.ietf.org/rfc/rfc1035.txt), [DHCP 动态主机配置协议](http://www.ietf.org/rfc/rfc2131.txt), [NAT](http://www.ietf.org/rfc/rfc1631.txt), [private](http://www.ietf.org/rfc/rfc1918.txt)
+	+ [UDP (User Datagram Protocol)用户报文协议](http://www.ietf.org/rfc/rfc768.txt), [TCP (Transmission Control Protocol)传输控制协议](http://www.ietf.org/rfc/rfc793.txt)
+	+ [HTTP 超文本传输协议](http://www.ietf.org/rfc/rfc2616.txt)
+	+ [BGP (Border Gateway Protocol) 边界网关协议](http://www.ietf.org/rfc/rfc4271.txt), [AODV](http://www.ietf.org/rfc/rfc3561.txt)
+	+ [sockets](http://docs.python.org/library/socket.html)
+	+ [SLIP](http://www.ietf.org/rfc/rfc1055.txt)
+- [APTP](http://academy.cba.mit.edu/classes/networking_communications/APTP/notes.html)
+
+## RF
+- [radios](http://www.arrl.org/shop/): oscillator, mixer, PA, LNA, IF, I/Q, demod, baseband, filters
+- [antennas](http://www.wiley.com/WileyCDA/WileyTitle/productCd-047166782X.html): Q, antenna gain, impedance matching
+- single-chip
+	+ MICRF (300-470 MHz)
+	+ MRF49XA (433/868/915 MHz)
+	+ nRF905 (433/868/915 MHz)
+	+ nRF24L01+ (2.4 GHz ISM)
+	+ CC2541 (2.4 GHz Bluetooth)
+	+ ESP8266 (2.4 GHz Wi-Fi)
+- [software radio](http://gnuradio.org/)
+
+
+
