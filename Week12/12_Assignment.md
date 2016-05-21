@@ -2,7 +2,7 @@
 
 > design a 3D mold, machine it, and cast parts from it
 
-[students/346/Week12](http://archive.fabacademy.org/archives/2016/fablabbcn2016/students/346/Week12.htm)
+
 
 I use my 3D Elizabeth for mold:
 
@@ -43,6 +43,9 @@ And fix the position:
 
 This material will cure overnight(16h) to a flexible 30A dorometer rubber suitable for making molds.
 
+Ref:
+
+[students/346/Week12](http://archive.fabacademy.org/archives/2016/fablabbcn2016/students/346/Week12.htm)
 
 
 
