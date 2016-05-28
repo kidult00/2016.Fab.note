@@ -4,6 +4,8 @@
 
 ### A light board
 
+![](http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/408/Web/images/week13__output_devices/u49.jpg)
+
 ![](http://7xjpra.com1.z0.glb.clouddn.com/hello.light.45.png)
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/week11mylightboard.jpeg)
@@ -76,7 +78,23 @@ avrdude: 502 bytes of flash verified
 ```
 Then download [hello.light.45.py](http://academy.cba.mit.edu/classes/input_devices/light/hello.light.45.py).
 
-Connet my board with USB to TTl
+Connet my board with USB to TTL
+
+``python hello.light.45.py /dev/ttyUSB0``
+
+It responds:
+
+```
+Traceback (most recent call last):
+  File "hello.light.45.py", line 62, in <module>
+    ser = serial.Serial(port,9600)
+  File "/Library/Python/2.7/site-packages/serial/serialutil.py", line 180, in __init__
+    self.open()
+  File "/Library/Python/2.7/site-packages/serial/serialposix.py", line 294, in open
+    raise SerialException(msg.errno, "could not open port %s: %s" % (self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+```
+[Failed to open port /dev/ttyUSB0 - ROS Answers: Open Source Q&A Forum](http://answers.ros.org/question/41275/failed-to-open-port-devttyusb0/)
 
 ### A switch board
 
