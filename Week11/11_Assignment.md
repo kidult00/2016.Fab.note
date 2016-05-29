@@ -94,7 +94,34 @@ Traceback (most recent call last):
     raise SerialException(msg.errno, "could not open port %s: %s" % (self._port, msg))
 serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
 ```
+
+I google this problem:
+
 [Failed to open port /dev/ttyUSB0 - ROS Answers: Open Source Q&A Forum](http://answers.ros.org/question/41275/failed-to-open-port-devttyusb0/)
+
+My classmate told me that maybe because I didn't have FTDI drive. 
+
+I use this command to check my port ``ls /dev/tty*``, no /dev/tty.usbserial-A400gwhT exist.
+
+I tried install [D2XX Direct Drivers](http://www.ftdichip.com/Drivers/D2XX.htm) and [Virtual COM Port Drivers](http://www.ftdichip.com/Drivers/VCP.htm). Still didn't work.
+
+Then I google this article and reinstall the drive.
+[How to Install FTDI Drivers - learn.sparkfun.com](https://learn.sparkfun.com/tutorials/how-to-install-ftdi-drivers/all#mac)
+
+After restart the computer, I plug FTDI2USB device, and there's /dev/tty.usbserial-A400gwhT in the list.
+
+python hello.light.45.py /dev/tty.usbserial-A400gwhT 9600
+
+command line: hello.light.45.py serial_port
+
+need to change code 2 to 3
+
+```
+if (len(sys.argv) != 3):
+   print "command line: hello.light.45.py serial_port"
+   sys.exit()
+port = sys.argv[1]
+```
 
 ### A switch board
 
@@ -124,8 +151,63 @@ Data:          0 bytes (0.0% Full)
 ```
 Next command ``sudo make -f hello.button.45.make program-usbtiny``
 
-``avrdude: initialization failed``, something wrong with my board.
+```
+avr-objcopy -O ihex hello.button.45.out hello.button.45.c.hex;\
+	avr-size --mcu=attiny45 --format=avr hello.button.45.out
+AVR Memory Usage
+----------------
+Device: attiny45
 
+Program:     364 bytes (8.9% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+avrdude -p t45 -P usb -c usbtiny -U flash:w:hello.button.45.c.hex
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.00s
+
+avrdude: Device signature = 0x1e9206
+avrdude: NOTE: "flash" memory has been specified, an erase cycle will be performed
+         To disable this feature, specify the -D option.
+avrdude: erasing chip
+avrdude: reading input file "hello.button.45.c.hex"
+avrdude: input file hello.button.45.c.hex auto detected as Intel Hex
+avrdude: writing flash (364 bytes):
+
+Writing | ################################################## | 100% 0.54s
+
+avrdude: 364 bytes of flash written
+avrdude: verifying flash memory against hello.button.45.c.hex:
+avrdude: load data flash data from input file hello.button.45.c.hex:
+avrdude: input file hello.button.45.c.hex auto detected as Intel Hex
+avrdude: input file hello.button.45.c.hex contains 364 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 0.74s
+
+avrdude: verifying ...
+avrdude: 364 bytes of flash verified
+
+avrdude: safemode: Fuses OK (H:FF, E:DD, L:C2)
+
+avrdude done.  Thank you.
+```
+
+``python term.py /dev/ttyUSB0``
+
+It responds:
+
+
+``command line: term.py serial_port speed``
+
+ls /dev/tty*
+
+``python term.py /dev/tty.usbserial-A400gwhT 9600``
 
 ### A temperature board
 
@@ -135,26 +217,6 @@ I made a board with a temperature sensor:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/week11mytempboard.jpeg)
 
-Then download [hello.temp.45.c](http://academy.cba.mit.edu/classes/input_devices/temp/hello.temp.45.c) and [makefile](http://academy.cba.mit.edu/classes/input_devices/temp/hello.temp.45.make). cd into the folder in terminal, give it this command: ``make -f hello.temp.45.make``
+Then download [hello.temp.45.c](http://academy.cba.mit.edu/classes/input_devices/temp/hello.temp.45.c) and [makefile](http://academy.cba.mit.edu/classes/input_devices/temp/hello.temp.45.make). cd into the folder in terminal, give it this command: ``make -f hello.temp.45.make`` and ````
 
-it responds
-
-```
-avr-gcc -mmcu=attiny45 -Wall -Os -DF_CPU=8000000 -I./ -o hello.temp.45.out hello.temp.45.c
-avr-objcopy -O ihex hello.temp.45.out hello.temp.45.c.hex;\
-	avr-size --mcu=attiny45 --format=avr hello.temp.45.out
-AVR Memory Usage
-----------------
-Device: attiny45
-
-Program:     504 bytes (12.3% Full)
-(.text + .data + .bootloader)
-
-Data:          1 bytes (0.4% Full)
-(.data + .bss + .noinit)
-
-```
-
-Next command ``sudo make -f hello.temp.45.make program-usbtiny``
-
-``avrdude: initialization failed``, something wrong with my board.
+python hello.temp.45.py /dev/tty.usbserial-A400gwhT 9600
