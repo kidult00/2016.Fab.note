@@ -43,6 +43,22 @@ And fix the position:
 
 This material will cure overnight(16h) to a flexible 30A dorometer rubber suitable for making molds.
 
+My mold came out!
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1464706271.jpeg)
+
+Next step, use drystone to make another Elizabeth:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1464706273.jpeg)
+
+Mixed drystone and water with a portion of 47:100:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1464706277.jpeg)
+
+Then poured into my mold:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1464706280.jpeg)
+
 Ref:
 
 [students/346/Week12](http://archive.fabacademy.org/archives/2016/fablabbcn2016/students/346/Week12.htm)
