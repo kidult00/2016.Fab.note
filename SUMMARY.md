@@ -44,8 +44,11 @@
 	* [Composites](Week14/14_Composites.md)
 	* [Assignment: Composites](Week14/14_Assignment.md)
 * Week15
-	* [Networking & Communicationss](Week15/15_Networking&Communicationss.md)
+	* [Networking & Communications](Week15/15_Networking&Communications.md)
 	* [Assignment: Networking](Week15/15_Assignment.md)
+* Week16
+	* [Interface & Application Programming.md](Week16/16_Interface&ApplicationProgramming.md)
+	* [Assignment: Interface & Application Programming](Week16/16_Assignment.md)
 
 
 
