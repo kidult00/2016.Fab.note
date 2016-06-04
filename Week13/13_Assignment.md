@@ -2,6 +2,11 @@
 
 > add an output device to a microcontroller board you've designed and program it to do something
 
+I made a board with a led:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1465006924.jpeg)
+
+
 ``make -f hello.RGB.45.make``
 
 ``sudo make -f hello.RGB.45.make program-usbtiny``
@@ -52,3 +57,50 @@ avrdude: safemode: Fuses OK (H:FF, E:DF, L:62)
 
 avrdude done.  Thank you.
 ```
+
+Then use Arduino to program.
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/arduinosetting8m.png)
+
+``` 
+int led1 = 1;           // the PWM pin the LED is attached to
+int led2 = 2;
+int led3 = 0;
+int brightness = 0;    // how bright the LED is
+int fadeAmount = 5;    // how many points to fade the LED by
+
+// the setup routine runs once when you press reset:
+void setup() {
+  // declare pin 1,2,3 to be an output:
+  pinMode(led1, OUTPUT);
+  pinMode(led2, OUTPUT);
+  pinMode(led3, OUTPUT);
+}
+
+// the loop routine runs over and over again forever:
+void loop() {
+  // set the brightness of pin 1,2,3:
+  analogWrite(led1, brightness);
+  analogWrite(led2, brightness);
+  analogWrite(led3, brightness);
+
+  // change the brightness for next time through the loop:
+  brightness = brightness + fadeAmount;
+
+  // reverse the direction of the fading at the ends of the fade:
+  if (brightness == 0 || brightness == 255) {
+    fadeAmount = -fadeAmount ;
+  }
+  // wait for 30 milliseconds to see the dimming effect
+  delay(30);
+}
+
+```
+
+The led on the board fade:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1464706428.jpeg)
+
+Video
+
+{% youtube 5OG0FoqRrLI %}
