@@ -101,6 +101,4 @@ The led on the board fade:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1464706428.jpeg)
 
-Video
-
-{% youtube 5OG0FoqRrLI %}
+[Video](https://youtu.be/5OG0FoqRrLI)

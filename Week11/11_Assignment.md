@@ -132,9 +132,7 @@ Problem fixed:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1464706293.jpeg)
 
-Video
-
-{% youtube GiuYhmkRabA %}
+[Video](https://youtu.be/GiuYhmkRabA)
 
 ### A switch board
 
@@ -164,9 +162,7 @@ And the result came out:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1464706285.jpeg)
 
-Video
-
-{% youtube WI6ty3sx18U %}
+[Video](https://youtu.be/WI6ty3sx18U)
 
 ### A temperature board
 
