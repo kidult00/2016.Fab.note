@@ -36,7 +36,7 @@
 	* [Assignment: Read a Sensor](Week11/11_Assignment.md)
 * Week12
 	* [Molding and Casting](Week12/12_MoldingandCasting.md)
-	* [Assignment: Read a Sensor](Week12/12_Assignment.md)
+	* [Assignment: Molding and Casting](Week12/12_Assignment.md)
 * Week13
 	* [Output Devices](Week13/13_OutputDevices.md)
 	* [Assignment: Output Devices](Week13/13_Assignment.md)
