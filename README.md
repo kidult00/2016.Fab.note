@@ -73,7 +73,7 @@
 ## Week15
 
 - [Networking & Communications](https://kidult00.gitbooks.io/00fabnotes/content/Week15/15_Networking&Communicationss.html)
-- [Assignment: Networking & Communicationss](https://kidult00.gitbooks.io/00fabnotes/content/Week15/15_Assignment.html)
+- [Assignment: Networking & Communications](https://kidult00.gitbooks.io/00fabnotes/content/Week15/15_Assignment.html)
 
 
 
