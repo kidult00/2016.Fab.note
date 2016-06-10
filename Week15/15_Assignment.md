@@ -2,6 +2,11 @@
 
 > design and build a wired &/or wireless network connecting at least two processors
 
+I make two boards. One as bridge, one as node:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1465550293.jpeg)
+
+
 make -f hello.bus.45.make
 
 sudo make -f hello.bus.45.make program-usbtiny
@@ -52,3 +57,7 @@ avrdude: safemode: Fuses OK (H:FF, E:DF, L:62)
 
 avrdude done.  Thank you.
 ```
+
+Then connect the boards and fuse 
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1465550294.jpeg)
