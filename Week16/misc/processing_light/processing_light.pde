@@ -21,13 +21,15 @@ void draw(){
         print("it's dark ");
         println(value);
         background(0,0,0);
-        text("it's dark! ",150,150);
+        text("-_- It's dark! ",150,120);
+        text(value,150,200);
        } 
        else{
         print("it's getting light ");
         println(value);
-        background(100,100,150);
-        text("it's getting light ",150,150);
+        background(204,153,0);
+        text(":P It's getting light ",150,120);
+        text(value,150,200);
        }
     }
   }

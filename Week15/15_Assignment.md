@@ -61,3 +61,17 @@ avrdude done.  Thank you.
 Then connect the boards and fuse 
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1465550294.jpeg)
+
+Strange thing happened. Just connet my bus board to TTl2USB, the led would turn on. It shouldn't because no vcc is conneted to it. So I spent a lot of time to debug. Finally, I fould that I had soldered one of the TTL pin with another line:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/solderingproblem.jpg)
+
+After solving this mistake, I ran term.py in terminal:
+
+``python term.py /dev/tty.usbserial-A400gwhT 9600``
+
+And the led on the boards turn on according to the keyboard signals:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1465569383.jpeg)
+
+[Video](https://youtu.be/t6y-v9ZCXDY)

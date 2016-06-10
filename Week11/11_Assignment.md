@@ -4,7 +4,7 @@
 
 In my assignment, I use Attiny45:
 
-![](http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/408/Web/images/week13__output_devices/u49.jpg)
+![](http://7xjpra.com1.z0.glb.clouddn.com/attiny45.jpg)
 
 
 ### A light board
