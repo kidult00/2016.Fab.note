@@ -59,6 +59,10 @@ Then poured into my mold:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1464706280.jpeg)
 
+And a new gypsum Elizabeth came out:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1465544598.jpeg)
+
 Ref:
 
 [students/346/Week12](http://archive.fabacademy.org/archives/2016/fablabbcn2016/students/346/Week12.htm)
