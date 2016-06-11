@@ -7,6 +7,8 @@ I'm interested in making a [Theremin](https://en.wikipedia.org/wiki/Theremin). I
 
 ![](http://www.carolinaeyck.com/media/portraits/CarolinaPlaying1211.jpg?t=1453258367)
 
+### Principle
+
 利用两个感应人体与大地的分布电容的LC 振荡器工作单元分别产生震荡的频率与大小变化而工作.
 
 ![](http://farm4.staticflickr.com/3739/9533739769_8714d81f89.jpg)
@@ -14,6 +16,16 @@ I'm interested in making a [Theremin](https://en.wikipedia.org/wiki/Theremin). I
 Here's block diagram of a theremin. Volume control in blue, pitch control in yellow and audio output in red.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/cb/Block_diagram_Theremin.png)
+
+
+### To do
+
+OpenFrameworks
+
+[OpenFrameworks download](http://openframeworks.cc/download/)
+
+[setup guide for xcode](http://openframeworks.cc/setup/xcode)
+
 
 Hope that will be fun!
 
