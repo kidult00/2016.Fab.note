@@ -81,5 +81,10 @@
 - [Interface & Application Programming](https://kidult00.gitbooks.io/00fabnotes/content/Week16/16_Interface&ApplicationProgramming.html)
 - [Assignment: Interface & Application Programming](https://kidult00.gitbooks.io/00fabnotes/content/Week16/16_Assignment.html)
 
+## Week17
+
+- [Applications & Implications](https://kidult00.gitbooks.io/00fabnotes/content/Week17/17_Applications&Implications.html)
+- [Assignment: Proposal for Final Project](https://kidult00.gitbooks.io/00fabnotes/content/Week17/17_Assignment.html)
+
 
 

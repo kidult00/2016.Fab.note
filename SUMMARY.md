@@ -47,8 +47,11 @@
 	* [Networking & Communications](Week15/15_Networking&Communications.md)
 	* [Assignment: Networking](Week15/15_Assignment.md)
 * Week16
-	* [Interface & Application Programming.md](Week16/16_Interface&ApplicationProgramming.md)
+	* [Interface & Application Programming](Week16/16_Interface&ApplicationProgramming.md)
 	* [Assignment: Interface & Application Programming](Week16/16_Assignment.md)
+* Week17
+	* [Applications & Implications](Week17/17_Applications&Implications.md)
+	* [Assignment: Proposal for Final Project](Week17/17_Assignment.md)
 
 
 
