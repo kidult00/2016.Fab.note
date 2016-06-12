@@ -21,30 +21,29 @@
 
 ### Final project proposal
 
+My final project is making a theremin-like instrument.
+
 #### what will it do?
 
-It's an old instrument invented by Rusian Leon Theremin. People still use it to play music all round the world.
+It's an old instrument invented by Russian engineer Leon Theremin. You can change the pitch by moving your hand near the instrument.
 
 #### who's done what beforehand?
 
-Many electronics and maker have made it. My project is based on [Open.Theremin](http://www.gaudi.ch/OpenTheremin/)
+Many electronics and maker have made it. Gaudilab even made a opensource library [Open.Theremin](http://www.gaudi.ch/OpenTheremin/). I'd like to make a simple version.
 
 #### what materials and components will be required?
 
-Circut
+Hardware
 
-- HEF 4060BT
-- HEF 4046BT
-- HEF 4077BT
-- TL 072ACD
-- LED
-- Batterie-Clip
-- Speaker
-- Battery
+- chip
+- Ultrasonic sensor HC-SR04
 
-Components
+Software
 
-- Antenna
+- Arduino IDE
+- New Ping Library for Arduino IDE
+- [OpenFrameworks](http://openframeworks.cc/) 
+- [Maximillian / ofxMaxim](github.com/micknoise/Maximilian) addon for OpenFrameworks
 
 Housing
 
@@ -66,8 +65,8 @@ Housing
 #### what parts and systems will be made?
 
 - the circut
+- the program
 - the box/shield
-- the antenna
 
 #### what processes will be used?
 
@@ -75,7 +74,6 @@ Housing
 - Design the circut (Week6 - Electronics Design)
 - Make the PCB (Week4 - Electronic Production)
 - Make the circut (Week8 - Embedded Programming, Week11 - Input Devices, Week13 - Output Devices, Week15 - Networking and Communications)
-- Make the anntenas (Week9 - Mechanical Design)
 - Test the instrument (Week16 - Interface and Application Programming)
 - Design the housing (Week2 - CAD, Week9 - Mechanical Design, Week10 - Machine Design)
 - Make the housing (Week3 - Computer-controlled cutting, Week7 - Computer-controlled machining)
@@ -84,12 +82,12 @@ Housing
 
 #### what tasks need to be completed?
 - study theremin principls
-- read IC datasheets
 - design schematic in eagle
 - design board in eagle
 - buy components
 - mill the borad
 - soldering
+- coding
 - test input & output part
 - design housing parts
 - making housing parts
@@ -100,18 +98,17 @@ Housing
 - theremin's principl
 - how the circut works
 - how to program input and output
-- how the antenna works
 - ...
 
 #### what is the schedule?
 
 - study theremin principls (6.9-6.11)
-- read IC datasheets (6.11)
-- design schematic in eagle (6.11)
-- design board in eagle (6.11)
+- design schematic in eagle (6.12)
+- design board in eagle (6.13)
 - buy components (6.15)
 - mill the borad ()
 - soldering
+- coding (6.12-6.18)
 - test input & output part
 - design housing parts
 - making housing parts
