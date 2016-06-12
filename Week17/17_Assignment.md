@@ -106,11 +106,11 @@ Housing
 - design schematic in eagle (6.12)
 - design board in eagle (6.13)
 - buy components (6.15)
-- mill the borad ()
-- soldering
+- mill the borad (6.18)
+- soldering (6.18)
 - coding (6.12-6.18)
-- test input & output part
-- design housing parts
-- making housing parts
-- assemble
-- test
+- test input & output part (6.19)
+- design housing parts (6.13-6.15)
+- making housing parts (6.18-6.19)
+- assemble (6.19)
+- test (6.20-6.21)
