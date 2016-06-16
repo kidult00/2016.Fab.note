@@ -43,7 +43,7 @@ public:
     //
     //Custom variables for on screen string and font.
     string msg;
-    //ofTrueTypeFont font;
+    ofTrueTypeFont myfont;
     
     //New serial object.
     ofSerial serial;

@@ -5,9 +5,9 @@ int byteData;
 //--------------------------------------------------------------
 void ofApp::setup(){
     //General setup of look of window.
-    ofBackground(255);
-    // font.loadFont("verdana.ttf", 64);
-    ofSetColor(0);
+    ofBackground(0);
+    //myfont.loadFont("verdana.ttf", 64);
+    ofSetColor(255);
     
     //serial port setup. using COM3 for Windows port.
     //Also using baud rate 9600, same in Arduino sketch.
@@ -41,7 +41,9 @@ void ofApp::update(){
             byteData = serial.readByte();
             
             //byteData is converted into a string for drawing later.
-            msg = "cm: " + ofToString(byteData);
+            msg = "The current note is: " + ofToString(byteData/2);
+            
+            //myfont.drawString("hi", 100, 100);
         }
         
     }
