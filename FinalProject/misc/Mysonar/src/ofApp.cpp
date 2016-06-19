@@ -6,7 +6,8 @@ int byteData;
 void ofApp::setup(){
     //General setup of look of window.
     ofBackground(0);
-    //myfont.loadFont("verdana.ttf", 64);
+    myfont.load("/Users/kidult/WorkStation/PresentWork/00FabNotes/FinalProject/misc/Mysonar/bin/data/type/verdana.ttf", 128);
+
     ofSetColor(255);
     
     //serial port setup. using COM3 for Windows port.
@@ -22,7 +23,8 @@ void ofApp::setup(){
     
     ofSoundStreamSetup(2, 0, this, sampleRate, bufferSize, 4);
     
-    serial.setup("/dev/cu.usbmodem1421", 9600);
+    //serial.setup("/dev/tty.usbserial-A400gwhT", 9600);
+    serial.setup("/dev/cu.usbmodem1411", 9600);
     
 }
 
@@ -41,8 +43,9 @@ void ofApp::update(){
             byteData = serial.readByte();
             
             //byteData is converted into a string for drawing later.
-            msg = "The current note is: " + ofToString(byteData/2);
-            
+            if (byteData < 16) {
+                msg = ofToString(byteData/2);
+            }
             //myfont.drawString("hi", 100, 100);
         }
         
@@ -53,7 +56,8 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
     //drawing the string version pf byteData on oF window.
-    ofDrawBitmapString(msg, 50, 100);
+    ofDrawBitmapString("The current note is:", 50, 100);
+    ofDrawBitmapString(msg, 250, 150);
     
     //printing byteData into console.
     cout << byteData << endl;
@@ -98,6 +102,7 @@ void ofApp::draw(){
     }else{
         keys[7]->off();
     }
+    
 }
 
 void ofApp::audioOut( float * output, int bufferSize, int nChannels){

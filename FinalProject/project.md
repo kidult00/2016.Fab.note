@@ -5,7 +5,6 @@ date: 2016-01-29 11:35:19
 
 I'm interested in making a [Theremin](https://en.wikipedia.org/wiki/Theremin). It's an early electronic musical instrument controlled without physical contact by the thereminist
 
-![](http://www.carolinaeyck.com/media/portraits/CarolinaPlaying1211.jpg?t=1453258367)
 
 ### Principle
 
@@ -18,7 +17,62 @@ Here's block diagram of a theremin. Volume control in blue, pitch control in yel
 ![](https://upload.wikimedia.org/wikipedia/commons/c/cb/Block_diagram_Theremin.png)
 
 
-### To do
+### Input
+
+### Output
+
+### Make the board
+
+``sudo make -f hello.HC-SR04.make program-usbtiny``
+
+```
+avr-objcopy -O ihex hello.HC-SR04.out hello.HC-SR04.c.hex;\
+	avr-size --mcu=attiny45 --format=avr hello.HC-SR04.out
+AVR Memory Usage
+----------------
+Device: attiny45
+
+Program:     526 bytes (12.8% Full)
+(.text + .data + .bootloader)
+
+Data:          2 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+avrdude -p t45 -P usb -c usbtiny -U flash:w:hello.HC-SR04.c.hex
+
+avrdude: AVR device initialized and ready to accept instructions
+
+Reading | ################################################## | 100% 0.00s
+
+avrdude: Device signature = 0x1e9206
+avrdude: NOTE: "flash" memory has been specified, an erase cycle will be performed
+         To disable this feature, specify the -D option.
+avrdude: erasing chip
+avrdude: reading input file "hello.HC-SR04.c.hex"
+avrdude: input file hello.HC-SR04.c.hex auto detected as Intel Hex
+avrdude: writing flash (526 bytes):
+
+Writing | ################################################## | 100% 0.92s
+
+avrdude: 526 bytes of flash written
+avrdude: verifying flash memory against hello.HC-SR04.c.hex:
+avrdude: load data flash data from input file hello.HC-SR04.c.hex:
+avrdude: input file hello.HC-SR04.c.hex auto detected as Intel Hex
+avrdude: input file hello.HC-SR04.c.hex contains 526 bytes
+avrdude: reading on-chip flash data:
+
+Reading | ################################################## | 100% 1.11s
+
+avrdude: verifying ...
+avrdude: 526 bytes of flash verified
+
+avrdude: safemode: Fuses OK (H:FF, E:DF, L:62)
+
+avrdude done.  Thank you.
+```
+
+### Programming
 
 OpenFrameworks
 
@@ -26,6 +80,22 @@ OpenFrameworks
 
 [setup guide for xcode](http://openframeworks.cc/setup/xcode)
 
+### Housing
+
+Design
+
+Fusion360 → dxf → Inkscape → Coraldraw → GCC Laser Pro
+
+Laser cut
+
+Assembly
+
+### Test
+
+
+## Ref
+
+![](http://www.carolinaeyck.com/media/portraits/CarolinaPlaying1211.jpg?t=1453258367)
 
 Hope that will be fun!
 
