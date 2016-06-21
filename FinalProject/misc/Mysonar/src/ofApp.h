@@ -36,8 +36,8 @@ public:
     
     maxiMix myMix;
     
-    //    maxiOsc osc;
-    //    double freq, wave;
+        maxiOsc osc;
+        double freq, wave;
     //
     //    int bufferSize, sampleRate;
     //
