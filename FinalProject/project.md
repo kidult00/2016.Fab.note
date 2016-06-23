@@ -3,28 +3,32 @@ title: Final project - Mini SoundBot
 date: 2016-01-29 11:35:19
 ---
 
+# Final project - Mini SoundBot
+
 ![](http://7xjpra.com1.z0.glb.clouddn.com/%5BFabFinal%5DVideoTitle1.jpg)
 
 ### Idea
 
-Wave or move hands in front of the Soundbot, it’ll convert the distance into music notes.
+In the very beginning, I planned to make a theremin. But I was stucked by the osillators and complicated circut. So I simplified it to a signal-note converter -- I call it SoundBot.
+
+If you wave or move hands in front of the Soundbot, it’ll convert the distance between your hand and the sensor into music notes.
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/projectsketch.jpeg)
 
 
-
 ### Input
 
-Ultrasonic Ranging Module HC - SR04
+I used an Ultrasonic Ranging Module HC-SR04 which detects the distance.
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/%5BFabFinal%5DHC-SR04.jpeg)
 
 ### Output
 
-I've tried to use speaker like this, but it sounds a little wierd. 
+At first, I've tried to use speaker like this, but it sounds a little wierd. 
 
-So I decided to use macbook as output device,
-my program can synthesize signal into piano-like notes:
+![](http://7xjpra.com1.z0.glb.clouddn.com/tryspeaker.jpeg)
+
+So I decided to use macbook as output device, my program can synthesize signal into piano-like notes:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/SoundBotPrinciple.png)
 

@@ -25,17 +25,18 @@ My final project is making a theremin-like instrument.
 
 #### what will it do?
 
-It's an old instrument invented by Russian engineer Leon Theremin. You can change the pitch by moving your hand near the instrument.
+You can play a song with your hand but without touching anything. It's like touchless instrument.
 
 #### who's done what beforehand?
 
-Many electronics and maker have made it. Gaudilab even made a opensource library [Open.Theremin](http://www.gaudi.ch/OpenTheremin/). I'd like to make a simple version.
+Many electronics and maker have made theremin. Gaudilab even made a opensource library [Open.Theremin](http://www.gaudi.ch/OpenTheremin/). I'd like to make a simple version. And also some simplier projects [like this](http://www.instructables.com/id/Ultrasonic-Theremin/).
+
 
 #### what materials and components will be required?
 
 Hardware
 
-- chip
+- ATTiny 45 chip
 - Ultrasonic sensor HC-SR04
 
 Software
@@ -47,26 +48,25 @@ Software
 
 Housing
 
-- a shield or box
-- antenna screws
+- A shield or box
+- Connection parts
 
 #### where will they come from?
 - Local electronic vender
 - Taobao
 - wood suply
-- acrylic supplier
 - Inventory from our fablab
 
 #### how much will it cost?
 
-- electornic parts roughly about ? USD
-- wood parts about 30 USD
+- electornic parts roughly about 10 USD
+- wood parts about 10 USD
 
 #### what parts and systems will be made?
 
 - the circut
 - the program
-- the box/shield
+- the box
 
 #### what processes will be used?
 

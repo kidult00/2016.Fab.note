@@ -52,7 +52,11 @@
 * Week17
 	* [Applications & Implications](Week17/17_Applications&Implications.md)
 	* [Assignment: Proposal for Final Project](Week17/17_Assignment.md)
-
+* Week18
+	* [Invention, Intellectual Property and Income](Week18/18_Invention-IntellectualProperty-Income.md)
+	* [Assignment: Dissemination for Final Project](Week18/18_Assignment.md)
+* Final Project
+	* [Mini SoundBot](FinalProject/project.md)
 
 
 	

@@ -86,5 +86,11 @@
 - [Applications & Implications](https://kidult00.gitbooks.io/00fabnotes/content/Week17/17_Applications&Implications.html)
 - [Assignment: Proposal for Final Project](https://kidult00.gitbooks.io/00fabnotes/content/Week17/17_Assignment.html)
 
+## Week18
 
+- [Invention, Intellectual Property and Income](https://kidult00.gitbooks.io/00fabnotes/content/Week18/18_Invention-IntellectualProperty-Income.html)
+- [Assignment: Dissemination for Final Project](https://kidult00.gitbooks.io/00fabnotes/content/Week18/18_Assignment.html)
 
+## Final Project
+
+- [Mini SoundBot](https://kidult00.gitbooks.io/00fabnotes/content/FinalProject/project.html)
