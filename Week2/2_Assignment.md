@@ -4,6 +4,24 @@
 
 > Model final project using CAD tools.
 
+### 2D & 3D softwares
+
+2D tool
+
+As a UI/Interaction design, I use Sketch most of the time:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabSketch.png)
+
+3D tools
+
+Sketchup is quite handy for designing interior space and large scale objects:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabsketchup.png)
+
+
+
+### Project model design
+
 I try to model a box for theremin like this in Fusion 360 :
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c8/Etherwave_Theremin_Kit.jpg)
