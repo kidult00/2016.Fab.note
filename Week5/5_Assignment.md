@@ -18,6 +18,8 @@ Just a simple version:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/stlElizabeth.png)
 
+[Here's my Antimony design file you can download](https://app.box.com/s/kdqpflz6uaeiayo2oqdk0a5nnmbkq93r).
+
 In our lab, we use gcode format for 3D printers. So I converted from .stl to .gcode in cura.
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1456713584.jpeg)
@@ -44,6 +46,8 @@ It took one hour to finish:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1456713620.jpeg)
 
+
+
 ### 3D scan an object
 In our lab we use this 3D scan machine:
 
@@ -64,3 +68,5 @@ It's easy to lost tracking:
 Finally, I got my body scan through my classmate's help:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/3dscan5.jpeg)
+
+And the 3D scan file is [here for download](https://app.box.com/s/ya8vwg2oy4b42joaa4glhqg1sbbthr54).

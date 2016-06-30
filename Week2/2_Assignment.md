@@ -56,3 +56,5 @@ Step 6 : put the top part onto the base
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/thereminbox%20s6.png)
 
+
+You can [download my 2D and 3D design file from box.net](https://app.box.com/s/ennc9ukf2ijji5a70s22ke9waje08xgj).
