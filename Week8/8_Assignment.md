@@ -5,58 +5,11 @@
 > program your board to do something, with as many different programming languages. 
 >      and programming environments as possible
 
-### Round1: make your own ISP
-The FabISP is an in-system programmer for AVR microcontrollers, designed for production within a FabLab. It allows you to program the microcontrollers on other boards you make.
+In this week, we're going to use Attiny44 for microcontroller. I read it's datasheet and tried to figure out every pin's role. Especially pin 7 MOSI(Master Out Slave In) and pin 8 MISO(Master In Slave Out)
 
-[FabISP: Programming tutorial](http://archive.fabacademy.org/archives/2016/doc/programming_FabISP.html)
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabAttiny44.png)
 
-Steps on OSX 
-
-- [Download and Install Crosspack AVR](http://www.obdev.at/products/crosspack/index.html)
-- Get Make (via XCode)
-- Download the firmware [FabISP Firmware for MacOS 10.8.2](http://www.as220.org/fabacademy/downloads/fabISP_mac.0.8.2_firmware.zip)
-- unzip and cd into the firmware directory
-- Open the Makefile with TextEditor
-- change avrisp2 to usbtiny
-
-	Go to the line that says: 
-
-	```
-#AVRDUDE = avrdude -c usbtiny -p $(DEVICE) # edit this line for your programmer
-AVRDUDE = avrdude -c avrisp2 -P usb -p $(DEVICE) # edit this line for your programmer
-	```
-
-	- If using the USBtiny programmer or another FabISP, remove the "#" in front of the line with "usbtiny" in it. Add a "#" to beginning the line with the "avrisp2" in it to comment it out. Save the Makefile
-- cd firmware directory, ``make clean``
-	+ the result should be ``rm -f main.hex main.lst main.obj main.cof main.list main.map main.eep.hex main.elf *.o usbdrv/*.o main.s usbdrv/oddebug.s usbdrv/usbdrv.s``
-	
-	when ``make hex``, error occured
-	
-	```
-kidults-NMB:fabISP_mac.0.8.2_firmware kidult$ make hex
-avr-gcc -Wall -Os -DF_CPU=20000000	 -Iusbdrv -I. -DDEBUG_LEVEL=0 -mmcu=attiny44 -c usbdrv/usbdrv.c -o usbdrv/usbdrv.o
-make: avr-gcc: No such file or directory
-make: *** [usbdrv/usbdrv.o] Error 1
-	```
-	Then I plugin my FabISP, it showed:
-	
-	![](http://7xjpra.com1.z0.glb.clouddn.com/FabISPMakeHex.png)
-
-- Next, need to set the fuses so the board will use the external clock (crystal) by typing: ``make fuse``
-	
-	It seemed that something went wrong:
-	
-	```
-	avrdude -c usbtiny -p attiny44  -U hfuse:w:0xDF:m -U lfuse:w:0xFF:m
-	avrdude: Error: Could not find USBtiny device (0x1781/0xc9f)
-	avrdude done.  Thank you.
-	make: *** [fuse] Error 1
-	```
-	I couldn't figure out why. It seemed like a gcc complling problem or my board didn't work.
-
-### Round2: Using a USBtinyISP
-
-Then I tried to use a USBtinyISP.
+Then I tried to use a USBtinyISP to load program to my board.
 
 First, download [hello.ftdi.44.echo.c](http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.echo.c), [hello.ftdi.44.echo.c.make](http://academy.cba.mit.edu/classes/embedded_programming/hello.ftdi.44.echo.c.make)
 
@@ -179,7 +132,56 @@ Ref:
 
 
 ---
+### Round1: make your own ISP
+The FabISP is an in-system programmer for AVR microcontrollers, designed for production within a FabLab. It allows you to program the microcontrollers on other boards you make.
 
+[FabISP: Programming tutorial](http://archive.fabacademy.org/archives/2016/doc/programming_FabISP.html)
+
+Steps on OSX 
+
+- [Download and Install Crosspack AVR](http://www.obdev.at/products/crosspack/index.html)
+- Get Make (via XCode)
+- Download the firmware [FabISP Firmware for MacOS 10.8.2](http://www.as220.org/fabacademy/downloads/fabISP_mac.0.8.2_firmware.zip)
+- unzip and cd into the firmware directory
+- Open the Makefile with TextEditor
+- change avrisp2 to usbtiny
+
+	Go to the line that says: 
+
+	```
+#AVRDUDE = avrdude -c usbtiny -p $(DEVICE) # edit this line for your programmer
+AVRDUDE = avrdude -c avrisp2 -P usb -p $(DEVICE) # edit this line for your programmer
+	```
+
+	- If using the USBtiny programmer or another FabISP, remove the "#" in front of the line with "usbtiny" in it. Add a "#" to beginning the line with the "avrisp2" in it to comment it out. Save the Makefile
+- cd firmware directory, ``make clean``
+	+ the result should be ``rm -f main.hex main.lst main.obj main.cof main.list main.map main.eep.hex main.elf *.o usbdrv/*.o main.s usbdrv/oddebug.s usbdrv/usbdrv.s``
+	
+	when ``make hex``, error occured
+	
+	```
+kidults-NMB:fabISP_mac.0.8.2_firmware kidult$ make hex
+avr-gcc -Wall -Os -DF_CPU=20000000	 -Iusbdrv -I. -DDEBUG_LEVEL=0 -mmcu=attiny44 -c usbdrv/usbdrv.c -o usbdrv/usbdrv.o
+make: avr-gcc: No such file or directory
+make: *** [usbdrv/usbdrv.o] Error 1
+	```
+	Then I plugin my FabISP, it showed:
+	
+	![](http://7xjpra.com1.z0.glb.clouddn.com/FabISPMakeHex.png)
+
+- Next, need to set the fuses so the board will use the external clock (crystal) by typing: ``make fuse``
+	
+	It seemed that something went wrong:
+	
+	```
+	avrdude -c usbtiny -p attiny44  -U hfuse:w:0xDF:m -U lfuse:w:0xFF:m
+	avrdude: Error: Could not find USBtiny device (0x1781/0xc9f)
+	avrdude done.  Thank you.
+	make: *** [fuse] Error 1
+	```
+	I couldn't figure out why. It seemed like a gcc complling problem or my board didn't work.
+
+### Round2: Using a USBtinyISP
 	
 ### Other attempts
 

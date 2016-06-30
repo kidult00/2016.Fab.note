@@ -8,13 +8,13 @@
 
 ### My accountability in the Assignment
 
-I mainly do the design part of the project.
+In this week's group work, I mainly do the design part of the project.
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/week10work.png) 
 
 Since I lives in Guangzhou, a city more than 250 kilometers away from Fablab shenzhen, I can only make it to the lab every weekend. 
 
-So when the project started, we seprated into two groups: one responded for form and mechanical design, one for circuts and programming. And I was in the design group. I communicated with everyone mainly online or through facetime. Thanks to Viky Xie, Flex Ma, Lit Liao, Yixiao Zhang, Yang yang, I can do my work at home.
+So when the project started, we seprated into two groups: one responded for appearance and mechanical design, one for circuts and programming. And I was in the design group. I communicated with everyone mainly online or through facetime. Thanks to Viky Xie, Flex Ma, Lit Liao, Yixiao Zhang, Yang yang, I can finish the most challenging assignment.
 
 I finished design work at home and went to the lab for cutting, assembling and testing.
 
@@ -81,6 +81,13 @@ Run the machine
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/Run%20the%20machine.png)
  
+And cheer for the cutting!
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek10video.png)
+
+Enjoy it!
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek10enjoy.png)
      
 Click blow to watch our video ;)
 
