@@ -12,7 +12,7 @@ In this week's group work, I mainly do the design part of the project.
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/week10work.png) 
 
-Since I lives in Guangzhou, a city more than 250 kilometers away from Fablab shenzhen, I can only make it to the lab every weekend. 
+Since I lives in Guangzhou, a city more than 150 kilometers away from Fablab shenzhen, I can only make it to the lab every weekend. 
 
 So when the project started, we seprated into two groups: one responded for appearance and mechanical design, one for circuts and programming. And I was in the design group. I communicated with everyone mainly online or through facetime. Thanks to Viky Xie, Flex Ma, Lit Liao, Yixiao Zhang, Yang yang, I can finish the most challenging assignment.
 
@@ -31,6 +31,8 @@ Based on previous work in week 9, we polished our design and made our machine bo
 ![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek10u43.jpg)
 
 ### Automate our machine
+
+[Our group work page](http://archive.fabacademy.org/archives/2016/fablabshenzhen/)
 
 We found a very useful tutorial [Getting Started With Gestalt Nodes](http://archive.fabacademy.org/archives/2016/doc/MachineMakingNotes.html) from the Fabacademy website. :)
  
