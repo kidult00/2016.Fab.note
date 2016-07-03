@@ -10,7 +10,6 @@ Making a guitar is quite a complex work. I checked out a bunch of tutorials or v
 
 [Make a Guitar with CNC](http://www.instructables.com/id/Make-a-Guitar-with-CNC/)
 
-![](http://cdn.instructables.com/FOK/JETZ/ICLRZT1N/FOKJETZICLRZT1N.MEDIUM.jpg)
 
 ### Design
 
@@ -81,6 +80,69 @@ It seemed a little complex, so I tried 3D Adaptive. But still many collisions.
 ### Make
 The Shopbot isn't ready in our lab. So I'll update making notes later.
 
+### Update 2016-07-03
+
+Our shopbot is still out of work. So I change my plan to make a simple music stand.
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabweek7standdesign.png)
+
+The key is to set paramatric thickness so that I can change the design easily according to the material I would use.
+
+You can [download the cut files here](https://app.box.com/s/pp7zyjh4s12amztcp4fj12vlpy2gagar).
+
+First, I do some test using laser cutter:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467164820.jpeg)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467164822.jpeg)
+
+Then I go to the industrial zone near SZOIL called Jindi Industrial Zone to get the CNC for our assignment. Below is a CNC machine SW1325:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467542883.jpeg)
+
+Put my components all in a file:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467542887.jpeg)
+
+I use 9mm medium density fiberboard（MDF）
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467542888.jpeg)
+
+Endmill diameter: 4.00				
+Endmill blade height: 30.00
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467542895.jpeg)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467542894.jpeg)
+
+Set the original point and the speed(5000 millimeter/min)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467542905.jpeg)
+ 
+Calculate the cutting path:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467542908.jpeg)
+
+[video](https://youtu.be/yE0kisxhJcI)
+
+### Assembly
+
+Four parts shelf:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467543068.jpeg)
+
+The base:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467543077.jpeg)
+
+The stand:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467543083.jpeg)
+
+Fits well with Flex's vinyl  :P
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467543086.jpeg)
+ 
 ### Reference
 
 - [RICKENBACKER GUITAR FACTORY TOUR ](http://www.notcot.com/archives/2009/09/rickenbacker-gu.php)

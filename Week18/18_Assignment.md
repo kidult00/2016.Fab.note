@@ -7,7 +7,7 @@
 
 ### Project or Product
 
-My final project is a Mini Soundbot. This project was made for fab academy 2016 final project. Most of code are based on open source software and I have no plan for commerciallise. 
+[My final project is a Mini Soundbot](http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/417/Project-Plan/). This project was made for fab academy 2016 final project. Most of code are based on open source software and I have no plan for commerciallise. 
 
 I see it less as a product but more as an open source project, people who like music or have some idea about theremin can play, share ideas, code. 
 

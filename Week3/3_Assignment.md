@@ -100,3 +100,16 @@ Now we got all parts for minion:
 
 The last step is to glue all parts into a multi-layer minion:
 ![](http://7xjpra.com1.z0.glb.clouddn.com/FullSizeRender_shrink.jpg)
+
+### Vinyl cut
+
+I also try vinyl cut with GCC RXII60.
+
+Import .svg into coraldraw and sent to the vinyl cutter. Set the print lind width to "hair".
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467543088.jpeg)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467543093.jpeg)
+
+
+
