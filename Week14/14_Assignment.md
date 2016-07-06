@@ -6,7 +6,7 @@
 
 About this week's assignment, I got inspired from my lego container.
 
-![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467781168.jpeg =300x400)
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467781168.jpeg)
 
 I can make a lid for my box, why not?
 

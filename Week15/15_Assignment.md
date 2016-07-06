@@ -2,7 +2,17 @@
 
 > design and build a wired &/or wireless network connecting at least two processors
 
-I make two boards. One as bridge, one as node:
+I make two boards. 
+
+One as bridge:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek15bridge.png)
+
+One as node:
+ 
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek15node.png)
+
+You can [download my eagle board design and milling files here](https://app.box.com/s/e37crljau636dhk33bmh01ioacw9re0d).
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1465550293.jpeg)
 
@@ -69,6 +79,8 @@ Strange thing happened. Just connet my bus board to TTl2USB, the led would turn 
 After solving this mistake, I ran term.py in terminal:
 
 ``python term.py /dev/tty.usbserial-A400gwhT 9600``
+
+You can [download the code here](https://app.box.com/s/5wzbvgpsmuqsy420a5zp691ez4cy8nce).
 
 And the led on the boards turn on according to the keyboard signals:
 

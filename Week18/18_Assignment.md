@@ -11,30 +11,35 @@
 
 I see it less as a product but more as an open source project, people who like music or have some idea about theremin can play, share ideas, code. 
 
-Maybe it can help school kids to learn sensor and frequency of notes. I'd personally be very interested in thinking about play and toys like that.
+Maybe it can help school kids to learn sensor and frequency of notes. They could learn ultra-sonic sensor working by detecting distance between objects. And by playing the sounds, they would have sense of different notes. I'd personally be very interested in thinking about play and toys like that.
 
 ### License
 
-For everything on this website, I would like to release them under **‘[Creative Commons — Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/)’**. 
+For the design part of my project, I would like to release them under **‘[Creative Commons — Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/)’**. 
 
 ![](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)
 
-```
-You are free to:
 
-Share — copy and redistribute the material in any medium or format
-Adapt — remix, transform, and build upon the material
+> You are free to:
+> 
+> Share — copy and redistribute the material in any medium or format
+> Adapt — remix, transform, and build upon the material
+> 
+> The licensor cannot revoke these freedoms as long as you follow the license terms.
+> 
+> Under the following terms:
+> 
+> Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+> 
+> NonCommercial — You may not use the material for commercial purposes.
+> No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-The licensor cannot revoke these freedoms as long as you follow the license terms.
 
-Under the following terms:
+And for the program and application part, I'd like to use [fab lab](http://academy.cba.mit.edu/classes/invention_IP_business/license.txt) licenses:
 
-Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-
-NonCommercial — You may not use the material for commercial purposes.
-No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-```
-
+> (c) Lin Jie 2016-7
+> 
+> This work may be reproduced, modified, distributed, performed, and displayed for any purpose, but must acknowledge "Mini Soundbot". Copyright is retained and must be preserved. The work is provided as is; no warranty is provided, and users accept all liability.
 
 ### Final presentation
       
