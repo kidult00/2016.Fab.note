@@ -2,7 +2,69 @@
 
 > design a 3D mold, machine it, and cast parts from it
 
+### Design
 
+I'd like to make some tetris parts :)
+
+I use Fusion 360 to design the mold:
+
+Set parameter:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek12design1.png)
+
+Creat sketch:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek12design2.png)
+
+Extrude the shape:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek12design3.png)
+
+Then I export the component to [stl file which you can download here](https://app.box.com/s/cpth4en620kfh8yvmpmd1ml0fiul75if).
+
+### Machine it
+
+We use MODELA Player4 to open stl file. 
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek12cnc1.png)
+
+In our lab we have modelling wax, so I choose the materials to be milled:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek12u105.png)
+
+Settings:
+
+Choose new process - surfacing
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek12cnc2.png)
+
+Choose tool - 3mm Square
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek12cnc3.png)
+
+Choose new process - Roughing
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek12cnc4.png)
+
+Calculate the path
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek12cnc6.png)
+
+We use SRM-20 to mill. Adjust the original point of the machine like the PCB routine. Click Output and the computer will start to calculate and mill.
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek12cnc7.png)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467877070.jpeg)
+
+My tetris mold looks fine:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467877464.jpeg)
+
+Happy casting
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/Snip20160707_13.png)
+
+### First trial
 
 I use my 3D Elizabeth for mold:
 
