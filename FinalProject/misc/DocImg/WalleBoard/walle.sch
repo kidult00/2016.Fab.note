@@ -140,161 +140,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="diy-modules">
-<description>&lt;b&gt;DIY Modules for Arduino, Raspberry Pi, CubieBoard etc.&lt;/b&gt;
-&lt;br&gt;&lt;br&gt;
-The library contains a list of symbols and footprints for popular, cheap and easy-to-use electronic modules.&lt;br&gt;
-The modules are intend to work with microprocessor-based platforms such as &lt;a href="http://arduino.cc"&gt;Arduino&lt;/a&gt;, &lt;a href="http://raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;, &lt;a href="http://cubieboard.org/"&gt;CubieBoard&lt;/a&gt;, &lt;a href="http://beagleboard.org/"&gt;BeagleBone&lt;/a&gt; and many others. There are many manufacturers of the modules in the world. Almost all of them can be bought on &lt;a href="ebay.com"&gt;ebay.com&lt;/a&gt;.&lt;br&gt;
-&lt;br&gt;
-By using this library, you can design a PCB for devices created with usage of modules. Even if you do not need to create PCB design, you can also use the library to quickly document your work by drawing schematics of devices built by you.&lt;br&gt;
-&lt;br&gt;
-The latest version, examples, photos and much more can be found at: &lt;b&gt;&lt;a href="http://diymodules.org/eagle"&gt;diymodules.org/eagle&lt;/a&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailto:eagle@diymodules.org"&gt;eagle@diymodules.org&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-&lt;i&gt;Version: 1.0.0 (2015-Feb-02)&lt;/i&gt;&lt;br&gt;
-&lt;i&gt;Created by: Miroslaw Brudnowski&lt;/i&gt;&lt;br&gt;&lt;br&gt;
-&lt;i&gt;Released under the Creative Commons Attribution 4.0 International License: &lt;a href="http://creativecommons.org/licenses/by/4.0"&gt;http://creativecommons.org/licenses/by/4.0&lt;/a&gt;&lt;/i&gt;
-&lt;br&gt;&lt;br&gt;
-&lt;center&gt;&lt;a href="http://diymodules.org"&gt;&lt;img src="http://diymodules.org/img/diymodules-page-logo.png" alt="DIYmodules.org"&gt;&lt;/a&gt;&lt;/center&gt;</description>
-<packages>
-<package name="ULTRASONIC-HC-SR04">
-<description>&lt;b&gt;Ultrasonic Ranging Module HC-SR04&lt;/b&gt;</description>
-<wire x1="-22.5" y1="9.8" x2="22.5" y2="9.8" width="0.127" layer="21"/>
-<wire x1="22.5" y1="9.8" x2="22.5" y2="-10.2" width="0.127" layer="21"/>
-<wire x1="22.5" y1="-10.2" x2="-22.5" y2="-10.2" width="0.127" layer="21"/>
-<wire x1="-22.5" y1="-10.2" x2="-22.5" y2="9.8" width="0.127" layer="21"/>
-<hole x="-21.1" y="8.4" drill="1.8"/>
-<hole x="-21.1" y="-8.8" drill="1.8"/>
-<hole x="21.1" y="-8.8" drill="1.8"/>
-<hole x="21.1" y="8.4" drill="1.8"/>
-<circle x="-13" y="0" radius="8" width="0.127" layer="21"/>
-<circle x="13" y="0" radius="8" width="0.127" layer="21"/>
-<pad name="1" x="-3.81" y="-8.89" drill="1" shape="square"/>
-<pad name="2" x="-1.27" y="-8.89" drill="1"/>
-<pad name="3" x="1.27" y="-8.89" drill="1"/>
-<pad name="4" x="3.81" y="-8.89" drill="1"/>
-<wire x1="-5.08" y1="-8.255" x2="-4.445" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="-4.445" y1="-7.62" x2="-3.175" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="-7.62" x2="-2.54" y2="-8.255" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-8.255" x2="-1.905" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="-7.62" x2="-0.635" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-7.62" x2="0" y2="-8.255" width="0.127" layer="21"/>
-<wire x1="0" y1="-8.255" x2="0.635" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-7.62" x2="1.905" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="1.905" y1="-7.62" x2="2.54" y2="-8.255" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-8.255" x2="3.175" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="3.175" y1="-7.62" x2="4.445" y2="-7.62" width="0.127" layer="21"/>
-<wire x1="4.445" y1="-7.62" x2="5.08" y2="-8.255" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-8.255" x2="5.08" y2="-9.525" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-9.525" x2="4.445" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="4.445" y1="-10.16" x2="3.175" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="3.175" y1="-10.16" x2="2.54" y2="-9.525" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-9.525" x2="1.905" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="1.905" y1="-10.16" x2="0.635" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-10.16" x2="0" y2="-9.525" width="0.127" layer="21"/>
-<wire x1="0" y1="-9.525" x2="-0.635" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="-0.635" y1="-10.16" x2="-1.905" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="-1.905" y1="-10.16" x2="-2.54" y2="-9.525" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-9.525" x2="-3.175" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="-10.16" x2="-4.445" y2="-10.16" width="0.127" layer="21"/>
-<wire x1="-4.445" y1="-10.16" x2="-5.08" y2="-9.525" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-9.525" x2="-5.08" y2="-8.255" width="0.127" layer="21"/>
-<text x="0" y="10.795" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-11.43" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-</package>
-<package name="ULTRASONIC-HC-SR04#V">
-<description>&lt;b&gt;Ultrasonic Ranging Module HC-SR04&lt;/b&gt; vertically mounted</description>
-<wire x1="-22.5" y1="-4.064" x2="22.5" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="22.5" y1="-4.064" x2="22.5" y2="-5.7" width="0.127" layer="21"/>
-<wire x1="22.5" y1="-5.7" x2="21" y2="-5.7" width="0.127" layer="21"/>
-<wire x1="21" y1="-5.7" x2="5" y2="-5.7" width="0.127" layer="21"/>
-<wire x1="5" y1="-5.7" x2="-5" y2="-5.7" width="0.127" layer="21"/>
-<wire x1="-5" y1="-5.7" x2="-21" y2="-5.7" width="0.127" layer="21"/>
-<wire x1="-21" y1="-5.7" x2="-22.5" y2="-5.7" width="0.127" layer="21"/>
-<wire x1="-22.5" y1="-5.7" x2="-22.5" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-4.064" x2="5.08" y2="-4.064" width="0.127" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1" shape="square" rot="R180"/>
-<pad name="2" x="-1.27" y="0" drill="1" rot="R180"/>
-<pad name="3" x="1.27" y="0" drill="1" rot="R180"/>
-<pad name="4" x="3.81" y="0" drill="1" rot="R180"/>
-<text x="0" y="1.905" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-18.415" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
-<wire x1="-5.08" y1="-4.064" x2="-5.08" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-1.524" x2="-4.191" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="-4.191" y1="-1.524" x2="-3.429" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="-3.429" y1="-1.524" x2="-1.651" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="-1.651" y1="-1.524" x2="-0.889" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="-0.889" y1="-1.524" x2="0.889" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="0.889" y1="-1.524" x2="1.651" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="1.651" y1="-1.524" x2="3.429" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="3.429" y1="-1.524" x2="4.191" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="4.191" y1="-1.524" x2="5.08" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-1.524" x2="5.08" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="4.191" y1="-1.524" x2="4.191" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="3.429" y1="-1.524" x2="3.429" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="1.651" y1="-1.524" x2="1.651" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="-0.889" y1="-1.524" x2="-0.889" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="-3.429" y1="-1.524" x2="-3.429" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="0.889" y1="-1.524" x2="0.889" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="-1.651" y1="-1.524" x2="-1.651" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="-4.191" y1="-1.524" x2="-4.191" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="-21" y1="-5.7" x2="-21" y2="-17.7" width="0.127" layer="21"/>
-<wire x1="-21" y1="-17.7" x2="-5" y2="-17.7" width="0.127" layer="21"/>
-<wire x1="-5" y1="-17.7" x2="-5" y2="-5.7" width="0.127" layer="21"/>
-<wire x1="5" y1="-5.7" x2="5" y2="-17.7" width="0.127" layer="21"/>
-<wire x1="5" y1="-17.7" x2="21" y2="-17.7" width="0.127" layer="21"/>
-<wire x1="21" y1="-17.7" x2="21" y2="-5.7" width="0.127" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ULTRASONIC-HC-SR04">
-<description>&lt;b&gt;Ultrasonic Ranging Module HC-SR04&lt;/b&gt;</description>
-<pin name="VCC" x="-2.54" y="-15.24" length="middle" direction="pwr" rot="R90"/>
-<pin name="TRIG" x="0" y="-15.24" length="middle" direction="in" rot="R90"/>
-<pin name="ECHO" x="2.54" y="-15.24" length="middle" direction="out" rot="R90"/>
-<pin name="GND" x="5.08" y="-15.24" length="middle" direction="pwr" rot="R90"/>
-<wire x1="-22.86" y1="-10.16" x2="-22.86" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="10.16" x2="25.4" y2="10.16" width="0.254" layer="94"/>
-<wire x1="25.4" y1="10.16" x2="25.4" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-10.16" x2="-22.86" y2="-10.16" width="0.254" layer="94"/>
-<circle x="-12.7" y="0" radius="7.62" width="0.254" layer="94"/>
-<circle x="15.24" y="0" radius="7.62" width="0.254" layer="94"/>
-<circle x="15.24" y="0" radius="3.81845625" width="0.254" layer="94"/>
-<circle x="-12.7" y="0" radius="3.81845625" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ULTRASONIC-HC-SR04">
-<description>&lt;b&gt;Ultrasonic Ranging Module HC-SR04&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="ULTRASONIC-HC-SR04" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ULTRASONIC-HC-SR04">
-<connects>
-<connect gate="G$1" pin="ECHO" pad="3"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="TRIG" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="#V" package="ULTRASONIC-HC-SR04#V">
-<connects>
-<connect gate="G$1" pin="ECHO" pad="3"/>
-<connect gate="G$1" pin="GND" pad="4"/>
-<connect gate="G$1" pin="TRIG" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="fab">
 <packages>
 <package name="2X03SMD">
@@ -800,6 +645,99 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="jumper">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="JP4">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-5.08" y1="-1.016" x2="-5.08" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="1.27" x2="0.254" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.016" x2="0.254" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-1.27" x2="0.254" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.016" x2="0.254" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-1.27" x2="2.54" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="1.27" x2="2.54" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="1.27" x2="0" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="1.27" x2="-2.286" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.016" x2="-2.286" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="1.27" x2="-2.54" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.016" x2="-4.826" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="1.27" x2="-4.826" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-1.27" x2="0" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.016" x2="-2.286" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="-1.27" x2="-2.54" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-1.016" x2="-4.826" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.254" y1="-1.27" x2="-2.286" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="-1.27" x2="-4.826" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="1.016" x2="5.08" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="1.27" x2="5.08" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="-1.27" x2="5.08" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.016" x2="2.794" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.016" x2="2.794" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="1.27" x2="2.794" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="4.826" y1="-1.27" x2="2.794" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="0.9144" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="0.9144" shape="long" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="0.9144" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="0.9144" shape="long" rot="R90"/>
+<text x="-5.08" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-2.667" size="0.9906" layer="21" ratio="12">1</text>
+<text x="-1.27" y="-2.667" size="0.9906" layer="21" ratio="12">2</text>
+<text x="1.27" y="-2.667" size="0.9906" layer="21" ratio="12">3</text>
+<text x="3.81" y="-2.667" size="0.9906" layer="21" ratio="12">4</text>
+<text x="-5.08" y="-4.064" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-4.1148" y1="-0.3048" x2="-3.5052" y2="0.3048" layer="51"/>
+<rectangle x1="-1.5748" y1="-0.3048" x2="-0.9652" y2="0.3048" layer="51"/>
+<rectangle x1="0.9652" y1="-0.3048" x2="1.5748" y2="0.3048" layer="51"/>
+<rectangle x1="3.5052" y1="-0.3048" x2="4.1148" y2="0.3048" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="JP4E">
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="-3.175" y1="0" x2="5.08" y2="0" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.715" y2="0" width="0.4064" layer="94"/>
+<wire x1="5.715" y1="0" x2="5.715" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="5.715" y1="0.635" x2="-3.175" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="-3.175" y1="0.635" x2="-3.175" y2="0" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="1.27" width="0.1524" layer="94"/>
+<text x="-3.81" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="8.255" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JP4E" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="JP4E" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JP4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -810,7 +748,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="U$1" library="diy-modules" deviceset="ULTRASONIC-HC-SR04" device=""/>
 <part name="U$2" library="fab" deviceset="AVRISP" device="SMD"/>
 <part name="C1" library="fab" deviceset="CAP-UNPOLARIZED" device=""/>
 <part name="U$3" library="fab" deviceset="FTDI-SMD-HEADER" device=""/>
@@ -818,13 +755,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="ATTINY45" device="TINY45-20-SMT" value="Tiny45-20-SMT"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="JP1" library="jumper" deviceset="JP4E" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="124.46" y="170.18"/>
 <instance part="U$2" gate="G$1" x="99.06" y="137.16"/>
 <instance part="C1" gate="&gt;NAME" x="154.94" y="139.7"/>
 <instance part="U$3" gate="G$1" x="162.56" y="132.08"/>
@@ -832,6 +769,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND1" gate="1" x="139.7" y="152.4"/>
 <instance part="U1" gate="G$1" x="139.7" y="106.68"/>
 <instance part="GND2" gate="1" x="116.84" y="99.06"/>
+<instance part="JP1" gate="G$1" x="124.46" y="157.48"/>
 </instances>
 <busses>
 </busses>
@@ -859,9 +797,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="109.22" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="129.54" y1="154.94" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -871,9 +809,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="ECHO" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="ECHO"/>
 <wire x1="127" y1="154.94" x2="127" y2="147.32" width="0.1524" layer="91"/>
 <label x="127" y="149.86" size="1.778" layer="95"/>
+<pinref part="JP1" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PB4(ADC2)"/>
@@ -883,9 +821,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="TRIG" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="TRIG"/>
 <wire x1="124.46" y1="154.94" x2="124.46" y2="147.32" width="0.1524" layer="91"/>
 <label x="124.46" y="147.32" size="1.778" layer="95"/>
+<pinref part="JP1" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="PB3(ADC3)"/>
@@ -950,7 +888,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="C1" gate="&gt;NAME" pin="1"/>
 <wire x1="142.24" y1="139.7" x2="144.78" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
 <wire x1="144.78" y1="139.7" x2="147.32" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="139.7" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="154.94" x2="121.92" y2="144.78" width="0.1524" layer="91"/>
@@ -972,6 +909,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="160.02" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="137.16" x2="154.94" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="132.08" x2="144.78" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>

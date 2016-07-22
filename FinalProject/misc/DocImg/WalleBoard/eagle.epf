@@ -355,18 +355,12 @@ UsedLibrary="/Users/kidult/WorkStation/PresentWork/00FabNotes/Week6/misc/fab.lbr
 UsedLibrary="/Users/kidult/Documents/eagle/diy-modules.lbr"
 
 [Win_1]
-Type="Control Panel"
-Loc="158 321 757 720"
-State=2
-Number=0
-
-[Win_2]
 Type="Schematic Editor"
-Loc="322 150 1044 776"
-State=2
-Number=1
+Loc="0 -22 599 377"
+State=0
+Number=2
 File="walle.sch"
-View="26.2685 64.5011 110.086 162.85"
+View="83.5431 92.1725 177.188 182.198"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -405,8 +399,13 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 26.2685 64.5011 110.086 162.85"
 Sheet="1"
+
+[Win_2]
+Type="Control Panel"
+Loc="158 321 757 720"
+State=2
+Number=0
 
 [Desktop]
 Screen="1280 800"
