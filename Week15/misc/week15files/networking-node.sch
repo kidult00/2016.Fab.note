@@ -740,6 +740,8 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
+<part name="P+3" library="supply1" deviceset="VCC" device=""/>
+<part name="P+4" library="supply1" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -759,6 +761,8 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <instance part="GND2" gate="1" x="134.62" y="45.72"/>
 <instance part="GND3" gate="1" x="33.02" y="15.24"/>
 <instance part="GND4" gate="1" x="71.12" y="20.32"/>
+<instance part="P+3" gate="VCC" x="33.02" y="27.94"/>
+<instance part="P+4" gate="VCC" x="83.82" y="10.16" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -892,20 +896,20 @@ Variants with postfix FAB are widened to allow the routing of internal traces</d
 <wire x1="111.76" y1="38.1" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
 <junction x="109.22" y="38.1"/>
 </segment>
-</net>
-<net name="N$2" class="0">
 <segment>
 <pinref part="J3BUS" gate="G$1" pin="3"/>
 <wire x1="91.44" y1="20.32" x2="83.82" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="20.32" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="12.7" x2="40.64" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="12.7" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="P+4" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
 <pinref part="J1ISP" gate="G$1" pin="VCC"/>
-<wire x1="17.78" y1="22.86" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="22.86" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="17.78" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="17.78" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
-<junction x="35.56" y="22.86"/>
+<wire x1="17.78" y1="22.86" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
+<wire x1="33.02" y1="22.86" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="22.86" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
+<junction x="33.02" y="22.86"/>
 </segment>
 </net>
 </nets>
