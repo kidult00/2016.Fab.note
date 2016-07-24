@@ -51,7 +51,11 @@ Just a simple version:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/stlElizabeth.png)
 
-[Here's my Antimony design file you can download](https://app.box.com/s/kdqpflz6uaeiayo2oqdk0a5nnmbkq93r).
+[Here's my design file (I use Antimony this week)](http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/417/uploads/Week5-design-Elizabeth.sb)
+
+[Here's stl file (I use Antimony this week)](http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/417/uploads/Week5-print-Elizabeth.stl)
+
+[You can also download them from box.net](https://app.box.com/s/kdqpflz6uaeiayo2oqdk0a5nnmbkq93r).
 
 In our lab, we use gcode format for 3D printers. So I converted from .stl to .gcode in cura.
 

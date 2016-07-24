@@ -24,7 +24,7 @@ Then export the board to monochrome png file (I use 800 dpi resolution) for mill
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/output-outline.png)
 
-You can [download the eagle sch & brd & png files here]().
+You can [download the eagle sch & brd & png files here](http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/417/uploads/Week13-OutputEagleFiles.zip).
 
 ### Make the board
 
@@ -105,7 +105,7 @@ Don't forget to set board type and choose the right processor. And pay attention
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/week13-Arduino.png)
 
-Below is my code and you can [download them here]().
+Below is my code and you can [download them here](http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/417/uploads/Week13-MyRGB.ino).
 
 ``` 
 int led1 = 1;           // the PWM pin the LED is attached to
@@ -149,4 +149,3 @@ The LED on the board fades:
 
 [Video](https://youtu.be/Comn24MekQg)
 
-{% youtube Comn24MekQg %}

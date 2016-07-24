@@ -22,7 +22,9 @@ One as node:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/node-trace.png)
 
-You can [download my eagle board design and milling files here]().
+![](https://cdn1.iconfinder.com/data/icons/hawcons/32/698860-icon-129-cloud-download-128.png)
+
+You can [download my eagle board design and milling files here](http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/417/uploads/Week15EagleFiles.zip).
 
 
 ### Make the board
@@ -90,6 +92,9 @@ avrdude: safemode: Fuses OK (H:FF, E:DF, L:62)
 
 avrdude done.  Thank you.
 ```
+![](http://7xjpra.com1.z0.glb.clouddn.com/week15bridgemake.jpeg)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week15nodemake.jpeg)
 
 ### Program
 
@@ -101,6 +106,7 @@ You can [download the code here](https://app.box.com/s/5wzbvgpsmuqsy420a5zp691ez
 
 And the led on the boards turn on according to the keyboard signals:
 
-![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1465569383.jpeg)
+![](http://7xjpra.com1.z0.glb.clouddn.com/week15videosnap.png)
 
-[Video](https://youtu.be/t6y-v9ZCXDY)
+[Video](https://youtu.be/abXJHjT0VnU)
+

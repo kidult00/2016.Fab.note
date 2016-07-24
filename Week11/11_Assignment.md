@@ -26,7 +26,7 @@ Then export the board to monochrome png file (I use 800 dpi resolution) for mill
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/input-outline.png)
 
-You can [download the eagle sch & brd & png files here]().
+You can [download the eagle sch & brd & png files here](http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/417/uploads/Week15EagleFiles.zip).
 
 ### Make the board
 
@@ -53,7 +53,8 @@ Don't forget to set board type and choose the right processor. And pay attention
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/week11-arduino.png)
 
-Below is my code and you can [download them here]().
+Below is my code and you can [download them here](http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/417/uploads/Week11-code-myinput.ino).
+
 
 ```
 

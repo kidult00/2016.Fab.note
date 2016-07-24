@@ -64,6 +64,10 @@ Happy casting
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/Snip20160707_13.png)
 
+The result was not so good due to the mold size
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/IMG_1422.JPG)
+
 ### First trial
 
 I use my 3D Elizabeth for mold:

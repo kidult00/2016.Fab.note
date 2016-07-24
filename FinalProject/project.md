@@ -155,7 +155,9 @@ Since the converting job is mostly done by the program, my circuit board could b
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/walle-outline.png)
 
-You can [downloan my eagle file here]().
+[You can download my eagle files here](http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/417/uploads/FinalEagelFiles.zip)
+
+You can also[downloan from box.net](https://app.box.com/s/xgrrxwjk7gm3kme4f4hb4g5zpao65ebf).
 
 #### 4. Make the board
 
@@ -238,7 +240,9 @@ Also some 3D pringting parts.
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1467437187.jpeg)
 
-You can [downloan my design and cut file here](https://app.box.com/s/4j8cctfn2omfg8200gs7zsmwcjqbr7f5).
+[You can download my design and cut files here](http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/417/uploads/FinalHousingFiles.zip)
+
+You can also [downloan from box.net](https://app.box.com/s/4j8cctfn2omfg8200gs7zsmwcjqbr7f5).
 
 
 ### Test
