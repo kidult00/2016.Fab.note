@@ -6,6 +6,39 @@
 * design and 3D print an object (small, few cm) that could not be made subtractively
 * 3D scan an object (and optionally print it) (extra credit: make your own scanner)
 
+### Test the design rules for printer
+
+The 3D Printer I used at SZOIL is the one developed and made by Maker Collider team (a maker platform invested by Intel). Here is the brief introduction to the machine blow:
+
+Zego 3D Printer is an improved one based on Delta parallel connection arms type printer. Its basic info are as follows:
+ 
+* Type: parallel connection arms Delta Bot
+* Nozzle diameter: 0.4
+* Material diameter: 1.75
+* Print size: diameter 160mm height: 180mm
+* Maximum print speed: 100mm/s
+* Minimum height of Z axis: 0.1mm
+* Extrusion type: Remote extrusion
+* Nozzle type: E3D metal nozzle, maximum tolerant temperature 270 centigrade
+* Hot bed: silica gel hot bed, maximum temperature 90 centigrade
+* Print material: PLA ABS
+* Firmware version: marlin-makerlab for delta
+* Processor type: Intel Edison ＋ Arduino Mega
+* Print method: USB storage print, Web print
+* Leveling type: single-point offset test+ One-time manual leveling
+
+We used CURA to do the slicing of 3D model. We can use it to input .stl file and transform it into .gcode file format.
+ 
+Here are the setting below:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week5setting1.jpg)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week5setting2.jpg)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week5setting3.jpg)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week5setting4.jpg)
+
 ### Design and 3D print an object
 
 I used Antimony to design one of my favorit cartoon: Elizabeth

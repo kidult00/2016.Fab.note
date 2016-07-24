@@ -2,10 +2,47 @@
 
 > add an output device to a microcontroller board you've designed and program it to do something
 
-I made a board with a led:
+This week we learn about output components. I made a board with attiny45 as microcontroller and a led.
 
-![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1465006924.jpeg)
+### Board design
 
+The schematic:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week13-eagle-sch.png)
+
+The board:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week13-eagle-brd.png)
+
+Check with ERC and DRC. I set 16mil for clearance to avoid milling problem
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/setDRCclearance.png)
+
+Then export the board to monochrome png file (I use 800 dpi resolution) for milling:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/output-trace.png)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/output-outline.png)
+
+You can [download the eagle sch & brd & png files here]().
+
+### Make the board
+
+I use Roland SMR-20 to mill my board.
+
+In fabmodules, I set the input png dpi to 1500 and calculate the milling path:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week13fabmodule.png)
+
+1/64 endmill for traces and 1/32 endmill for interior:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week13milledboard.jpeg)
+
+Soldering the components:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week13soderedboard.jpeg)
+
+Then make the board:
 
 ``make -f hello.RGB.45.make``
 
@@ -58,9 +95,17 @@ avrdude: safemode: Fuses OK (H:FF, E:DF, L:62)
 avrdude done.  Thank you.
 ```
 
-Then use Arduino to program.
+### Programming
+
+I use Arduino to program the board to do something.
+
+Don't forget to set board type and choose the right processor. And pay attention to the clock setting. Attiny45 uses 8 MHz internal clock.
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/arduinosetting8m.png)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week13-Arduino.png)
+
+Below is my code and you can [download them here]().
 
 ``` 
 int led1 = 1;           // the PWM pin the LED is attached to
@@ -96,9 +141,12 @@ void loop() {
 }
 
 ```
+Then Burn Bootloader and upload the program to my board.
 
-The led on the board fade:
+The LED on the board fades:
 
-![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1464706428.jpeg)
+![](http://7xjpra.com1.z0.glb.clouddn.com/week13final.png)
 
-[Video](https://youtu.be/5OG0FoqRrLI)
+[Video](https://youtu.be/Comn24MekQg)
+
+{% youtube Comn24MekQg %}

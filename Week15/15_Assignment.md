@@ -2,24 +2,47 @@
 
 > design and build a wired &/or wireless network connecting at least two processors
 
-I make two boards. 
+In this week we learned about connecting different boards together to do something. 
 
-One as bridge:
+### Board Design
+
+I make two boards. One as bridge:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek15bridge.png)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabweek15-bridge-brd.png)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/bridge-trace.png)
 
 One as node:
  
 ![](http://7xjpra.com1.z0.glb.clouddn.com/fabWeek15node.png)
 
-You can [download my eagle board design and milling files here](https://app.box.com/s/e37crljau636dhk33bmh01ioacw9re0d).
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabweek15-node-brd.png)
 
-![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1465550293.jpeg)
+![](http://7xjpra.com1.z0.glb.clouddn.com/node-trace.png)
+
+You can [download my eagle board design and milling files here]().
 
 
-make -f hello.bus.45.make
+### Make the board
 
-sudo make -f hello.bus.45.make program-usbtiny
+I use Roland SMR-20 to mill my board.
+
+In fabmodules, I set the input png dpi to 1500 and calculate the milling path. 1/64 endmill for traces and 1/32 endmill for interior.
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week15milling.jpeg)
+
+Soldering the components:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week15soldering.jpeg)
+
+Then make the boards:
+
+``make -f hello.bus.45.make``
+
+``sudo make -f hello.bus.45.make program-usbtiny``
+
 
 ```
 avr-objcopy -O ihex hello.bus.45.out hello.bus.45.c.hex;\
@@ -68,15 +91,9 @@ avrdude: safemode: Fuses OK (H:FF, E:DF, L:62)
 avrdude done.  Thank you.
 ```
 
-Then connect the boards and fuse 
+### Program
 
-![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1465550294.jpeg)
-
-Strange thing happened. Just connet my bus board to TTl2USB, the led would turn on. It shouldn't because no vcc is conneted to it. So I spent a lot of time to debug. Finally, I fould that I had soldered one of the TTL pin with another line:
-
-![](http://7xjpra.com1.z0.glb.clouddn.com/solderingproblem.jpg)
-
-After solving this mistake, I ran term.py in terminal:
+I ran term.py in terminal:
 
 ``python term.py /dev/tty.usbserial-A400gwhT 9600``
 

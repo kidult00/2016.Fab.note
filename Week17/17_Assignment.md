@@ -38,6 +38,11 @@ Hardware
 
 - ATTiny 45 chip
 - Ultrasonic sensor HC-SR04
+- AVRISPSMD
+- FTDI-SMD-HEADER
+- RES 10.0K OHM 1206 SMD
+- CAP CER 1UF 1206
+- Dupont Line
 
 Software
 
@@ -48,8 +53,8 @@ Software
 
 Housing
 
-- A shield or box
-- Connection parts
+- basswood
+- 3D Printing PLA connection parts
 
 #### where will they come from?
 - Local electronic vender
@@ -59,8 +64,19 @@ Housing
 
 #### how much will it cost?
 
-- electornic parts roughly about 10 USD
-- wood parts about 10 USD
+item | quantity| cost
+ --- |---|---
+Attiny 45 | 1 | $ 2
+HC-SR04 |1 | $ 1
+AVRISPSMD|1|$ 1
+FTDI-SMD-HEADER|1|$ 1
+RES 10.0K OHM 1206 SMD|2|$ 0.1
+CAP CER 1UF 1206|1|$ 0.1
+Dupont Line|5|$ 0.1
+basswood | 2 |$ 10
+3D Printing PLA |1|$1
+glue |1|$ 1
+**TOTAL**||**$ 17**
 
 #### what parts and systems will be made?
 

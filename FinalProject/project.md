@@ -27,7 +27,11 @@ If you wave or move hands in front of the Soundbot, it’ll convert the distance
 ![](http://7xjpra.com1.z0.glb.clouddn.com/projectsketch.jpeg)
 
 ### Plan
-Like everyweek, I felt time presure. To use my spare time wisely, I made a project schedule to help myself concentrate on key tasks:
+The final project deadline is 6.22. I began to prepare my final project from 6.8. Like everyweek, I felt time presure. 
+
+I devided my work into 4 parts: design, coding, housing and testing. When I began, I only have some sketches of the idea, so I need to complete the project in about 10 days.
+
+To use my spare time wisely, I made a project schedule to help myself concentrate on key tasks:
 
 Task| Schedule | Outcome
 --- | --- | ---
@@ -44,6 +48,21 @@ Making housing parts | 6.18-6.19 | Laser cut & 3D print parts
 Assemble | 6.19 | Wind up everything together
 Test | 6.20-6.21 | Final test and prepare for presentation
 
+Tasks list:
+
+- study theremin principls
+- design schematic in eagle
+- design board in eagle
+- buy components
+- mill the borad
+- soldering
+- coding
+- test input & output part
+- design housing parts
+- making housing parts
+- assemble
+- test
+ 
 ### Process
 
 #### 1. Project blueprint
@@ -59,6 +78,46 @@ Test | 6.20-6.21 | Final test and prepare for presentation
 So I decided to use macbook as output device, my program can synthesize signal into piano-like notes:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/SoundBotPrinciple.png)
+
+##### Materials and bill
+
+Hardware
+
+- ATTiny 45 chip
+- Ultrasonic sensor HC-SR04
+- AVRISPSMD
+- FTDI-SMD-HEADER
+- RES 10.0K OHM 1206 SMD
+- CAP CER 1UF 1206
+- Dupont Line
+
+Software
+
+- Arduino IDE
+- New Ping Library for Arduino IDE
+- [OpenFrameworks](http://openframeworks.cc/) 
+- [Maximillian / ofxMaxim](github.com/micknoise/Maximilian) addon for OpenFrameworks
+
+Housing
+
+- basswood
+- 3D Printing PLA connection parts
+
+The hardware and housing material cost about $17.
+
+item | quantity| cost
+ --- |---|---
+Attiny 45 | 1 | $ 2
+HC-SR04 |1 | $ 1
+AVRISPSMD|1|$ 1
+FTDI-SMD-HEADER|1|$ 1
+RES 10.0K OHM 1206 SMD|2|$ 0.1
+CAP CER 1UF 1206|1|$ 0.1
+Dupont Line|5|$ 0.1
+basswood | 2 |$ 10
+3D Printing PLA |1|$1
+glue |1|$ 1
+**TOTAL**||**$ 17**
 
 #### 2. Coding
 
@@ -90,15 +149,21 @@ Since the converting job is mostly done by the program, my circuit board could b
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/fabfinal-sch.png)
 
-![](http://7xjpra.com1.z0.glb.clouddn.com/fabfinal-brd.png)
+![](http://7xjpra.com1.z0.glb.clouddn.com/fabfinal-eagle.png)
 
-You can [downloan my eagle file here](https://app.box.com/s/xgrrxwjk7gm3kme4f4hb4g5zpao65ebf).
+![](http://7xjpra.com1.z0.glb.clouddn.com/walle-trace.png)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/walle-outline.png)
+
+You can [downloan my eagle file here]().
 
 #### 4. Make the board
 
 I use RSM-20 to mill the board as usual and solder the components.
 
-![](http://7xjpra.com1.z0.glb.clouddn.com/%5BFabFinal%5DMillTheBoard.jpg)
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1469357438.jpeg)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1469357441.jpeg)
 
 make the board by ``sudo make -f hello.HC-SR04.make program-usbtiny``
 
@@ -150,8 +215,6 @@ avrdude: safemode: Fuses OK (H:FF, E:DF, L:62)
 avrdude done.  Thank you.
 ```
 
-![](http://7xjpra.com1.z0.glb.clouddn.com/WeChat_1466488357.jpeg)
-
 
 #### 5. Housing
 
@@ -191,7 +254,7 @@ Everything seems ready. Time for testing!
 
 I found a bit hard to find the right note when I move my hand back and forth. There's still refinement to be made in my program.
 
-
+### Presentation
 
 And here's my final project presentation:
 
@@ -204,6 +267,26 @@ Video:
 [Mini SoundBot - Youtube](https://youtu.be/PgKtiaQ3u-M)
 
 [Mini SoundBot - Vimeo](https://vimeo.com/171525141)
+
+### Experience
+
+In my final project, I learned some good lessons:
+
+1. project management
+
+	Things can go really messy if I don't have a clear plan and specific timetable. Once I decomposition the project into a task list, I know what to do next instead of just panicking. More importantly, every task should has a goal. I need to work it out with the time limits and not spend too much time in one task.
+	
+2. knowledge about audio and some music production princles
+
+	I learned how a program can turn signals into meaningful notes. The scale and autio frequency are interesting. I also learned some basic concepts of music production, like propagation, amplitude, frequency and timbre.
+
+3. how to apply a third-part framework and addons to save time and energy
+
+	There're plenty of great projects and libraries in Github. They are all opensource and with good documentation. It's a time saving way if you find the right toolkit.
+
+### Remaining work
+
+The stability of the program still needs improve. If the bot can change sound volume according to the distance it'll be more like a theremin. And I can build a auto playbar control by program instead of hands. 
 
 ## References
 

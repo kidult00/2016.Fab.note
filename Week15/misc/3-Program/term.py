@@ -1,4 +1,16 @@
-
+#!/usr/bin/env python
+#
+# term.py
+#
+# term.py serial_port port_speed
+#
+# Neil Gershenfeld
+# CBA MIT 7/27/07
+#
+# (c) Massachusetts Institute of Technology 2007
+# Permission granted for experimental and personal use;
+# license for commercial sale available from MIT.
+#
 
 import sys,time,serial
 from Tkinter import *
