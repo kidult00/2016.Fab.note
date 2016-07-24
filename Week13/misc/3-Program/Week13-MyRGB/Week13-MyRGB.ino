@@ -1,6 +1,6 @@
 /*
 Fab Academy 2016 assignment
-Week15 Output Device
+Week13 Output Device
 by LIN JIE
 */
 

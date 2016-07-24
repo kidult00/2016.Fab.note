@@ -2,10 +2,96 @@
 
 > measure something: add a sensor to a microcontroller board that you have designed and read it
 
-In my assignment, I use Attiny45:
+In my assignment, I use Attiny45. It's necessary to figure out the pin number before board design:
 
 ![](http://7xjpra.com1.z0.glb.clouddn.com/attiny45.jpg)
 
+### Design the board
+
+The schematic:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week11-eagle-sch.png)
+
+The board:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week11-eagle-brd.png)
+
+Check with ERC and DRC. I set 16mil for clearance to avoid milling problem
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/setDRCclearance.png)
+
+Then export the board to monochrome png file (I use 800 dpi resolution) for milling:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/input-trace.png)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/input-outline.png)
+
+You can [download the eagle sch & brd & png files here]().
+
+### Make the board
+
+
+I use Roland SMR-20 to mill my board.
+
+In fabmodules, I set the input png dpi to 1500 and calculate the milling path:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week11-fabmodule.png)
+
+1/64 endmill for traces and 1/32 endmill for interior.
+
+After soldering:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/wee11-board.jpeg)
+
+### Program
+
+I use Arduino to program the board to do something.
+
+Don't forget to set board type and choose the right processor. And pay attention to the clock setting. Attiny45 uses 8 MHz internal clock.
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/arduinosetting8m.png)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week11-arduino.png)
+
+Below is my code and you can [download them here]().
+
+```
+
+  // set pin numbers:
+const int buttonPin = 3;     // the number of the pushbutton pin
+const int ledPin =  4;      // the number of the LED pin
+
+// variables will change:
+int buttonState = 0;         // variable for reading the pushbutton status
+
+void setup() {
+  // initialize the LED pin as an output:
+  pinMode(ledPin, OUTPUT);
+  // initialize the pushbutton pin as an input:
+  pinMode(buttonPin, INPUT);
+}
+
+void loop() {
+  // read the state of the pushbutton value:
+  buttonState = digitalRead(buttonPin);
+
+  // check if the pushbutton is pressed.
+  // if it is, the buttonState is HIGH:
+  if (buttonState == HIGH) {
+    // turn LED on:
+    digitalWrite(ledPin, HIGH);
+  } else {
+    // turn LED off:
+    digitalWrite(ledPin, LOW);
+  }
+}
+```
+
+In this case, the phototransitor works as a button. It turns the LED on and off:
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week11-on.jpeg)
+
+![](http://7xjpra.com1.z0.glb.clouddn.com/week11-off.jpeg)
 
 ### A light board
 
@@ -35,53 +121,7 @@ Data:          0 bytes (0.0% Full)
 (.data + .bss + .noinit)
 ```
 
-Next command: ``sudo make -f hello.light.45.make program-usbtiny``
-
-It responds:
-
-```
-avr-objcopy -O ihex hello.light.45.out hello.light.45.c.hex;\
-	avr-size --mcu=attiny45 --format=avr hello.light.45.out
-AVR Memory Usage
-----------------
-Device: attiny45
-
-Program:     502 bytes (12.3% Full)
-(.text + .data + .bootloader)
-
-Data:          1 bytes (0.4% Full)
-(.data + .bss + .noinit)
-
-
-avrdude -p t45 -P usb -c usbtiny -U flash:w:hello.light.45.c.hex
-
-avrdude: AVR device initialized and ready to accept instructions
-
-Reading | ################################################## | 100% 0.00s
-
-avrdude: Device signature = 0x1e9206
-avrdude: NOTE: "flash" memory has been specified, an erase cycle will be performed
-         To disable this feature, specify the -D option.
-avrdude: erasing chip
-avrdude: reading input file "hello.light.45.c.hex"
-avrdude: input file hello.light.45.c.hex auto detected as Intel Hex
-avrdude: writing flash (502 bytes):
-
-Writing | ################################################## | 100% 0.74s
-
-avrdude: 502 bytes of flash written
-avrdude: verifying flash memory against hello.light.45.c.hex:
-avrdude: load data flash data from input file hello.light.45.c.hex:
-avrdude: input file hello.light.45.c.hex auto detected as Intel Hex
-avrdude: input file hello.light.45.c.hex contains 502 bytes
-avrdude: reading on-chip flash data:
-
-Reading | ################################################## | 100% 0.94s
-
-avrdude: verifying ...
-avrdude: 502 bytes of flash verified
-```
-
+Next command: ``sudo make -f hello.light.45.make program-usbtiny`` to make the board.
 
 Then download [hello.light.45.py](http://academy.cba.mit.edu/classes/input_devices/light/hello.light.45.py).
 
